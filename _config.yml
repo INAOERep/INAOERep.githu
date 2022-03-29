@@ -1,7 +1,7 @@
-### VALUES YOU SHOULD CHANGE ###
+### VALORES QUE DEBE CAMBIAR ###
 
-# GENERAL SITE SETTINGS
-# title: This will be displayed as the website's name in your browser tab.
+# AJUSTES GENERALES DEL SITIO
+# título: Esto se mostrará como el nombre del sitio web en la pestaña de su navegador.
 title: INAOERepositorio
 # description: This will be meta HTML tag content. This can be ignored.
 description: Repositorio para curvas de luz e información de asteroides obtenidos en la cámara Schmidt
@@ -111,7 +111,7 @@ projects:
 # Set the id, if you want to track your website with Google Analytics
 # > set this to "", if you do not want to track with Google Analytics
 google-analytics:
-  id: ">"
+  id: ""
 
 ### END OF VALUES YOU SHOULD CHANGE ###
 
