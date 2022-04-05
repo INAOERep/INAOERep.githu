@@ -32,7 +32,7 @@ twitter_username: exampleU
 # > setting this to false, will omit the About Me section
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-about_me_title: About Me
+about_me_title: Información 
 # about_me_description: This will be displayed under the title.
 about_me_description:  Base de datos 
 
@@ -79,9 +79,9 @@ os_projects_title: Open Source Projects
 # > setting this to false, will omit the Contact section
 show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
-contact_title: Contact
+contact_title: Contactos
 # contact_description: This will be displayed under the title.
-contact_description: z
+contact_description: 
 
 # GITHUB-METADATA
 # Set this to your forked repository
