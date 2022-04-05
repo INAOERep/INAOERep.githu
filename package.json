@@ -1,12 +1,12 @@
 {
-  "name": "INAOERepository",
+  "name": "Neumorphism",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "dev": "gulp",
     "prod": "gulp build"
   },
-  "author": "INAOERep",
+  "author": "INAOERepositorio",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.26.12",
