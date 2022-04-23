@@ -1,12 +1,12 @@
 {
-  "name": "Neumorphism",
+  "name": "AsteroidesINAOE",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "dev": "gulp",
     "prod": "gulp build"
   },
-  "author": "Neumorphism",
+  "author": "INAOERep",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.26.12",
