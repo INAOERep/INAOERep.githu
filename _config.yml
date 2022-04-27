@@ -21,16 +21,13 @@ email: INAOERep@outlook.com
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
 github_username: AsteroidesINAOE
-codepen_username: exam
-dev_username: exampl
-linkedin_username: exampl
 twitter_username: exampleU
 
 # ABOUT ME SECTION
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
 # > setting this to false, will omit the About Me section
-show_aboutme_card: true
+show_aboutme_card: false
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: Información 
 # about_me_description: This will be displayed under the title.
