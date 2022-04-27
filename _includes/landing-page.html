@@ -1,23 +1,5 @@
-<div id="landing">
-  <div class="landing-title">
-    <h1> 
-      <span class="highlight-title">{{site.username}}</span>,
-    </h1>
-    <h1>
-      <span id="txt-rotate" data-period="2000"
-        data-rotate='["{{site.typing_text}}", "Asteroides cercanos a la tierra"]'
-      >
-      </span>
-    </h1>
-    <h1>
-      <span id="txt-rotate" data-period="2000"
-        data-rotate='["{{site.typing_text}}", "Repositorio inaoe"]'
-      >
-      </span>
-    </h1>
-    <div class="landing-icons">
-        
-        <style type="text/css">
+<head>
+<style type="text/css">
     
           #header {
             padding:0px 50px 100px 100px;
@@ -61,7 +43,8 @@
           }
   
         </style>  
-  
+</head>
+<body>
   <div id="header">
     <ul class="nav">
       <li><a href="https://asteroidesinaoe.github.io/">Inicio</a></li>
@@ -80,8 +63,28 @@
       <li><a href="https://asteroidesinaoe.github.io/">Contacto</a></li>
     </ul>
   </div>
-      
-        
+</body>
+  
+  
+<div id="landing">
+  <div class="landing-title">
+    <h1> 
+      <span class="highlight-title">{{site.username}}</span>,
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="2000"
+        data-rotate='["{{site.typing_text}}", "Asteroides cercanos a la tierra"]'
+      >
+      </span>
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="2000"
+        data-rotate='["{{site.typing_text}}", "Repositorio inaoe"]'
+      >
+      </span>
+    </h1>
+    <div class="landing-icons">
+         
       {% if site.asteroides != null %}
         <a class="link" aria-label="Asteroides" target="_blank"
           rel="noreferrer" href="https://inaoerep.github.io/{{asteroides}}"
