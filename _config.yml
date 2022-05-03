@@ -1,32 +1,16 @@
-### VALORES QUE DEBE CAMBIAR ###
-
-# AJUSTES GENERALES DEL SITIO
-# título: Esto se mostrará como el nombre del sitio web en la pestaña de su navegador.
 title: INAOERepositorio
-# descripción: Este será el contenido de la etiqueta meta HTML. Esto se puede ignorar.
 description: Repositorio para curvas de luz e información de asteroides obtenidos en la cámara Schmidt
-# baseurl: La subpath de su sitio
-# > establece esto en "", si cambió el nombre del repositorio a <user>.github.io
 baseurl: "https://asteroidesinaoe.github.io"
 
-# LANDING PAGE
-# username: This will displayed on the landing page as your name.
 username: Asteroides INAOE
-# typing_text: This will be typed before 'scroll down for more'.
-# > set this to your job title, e.g. Fullstack Developer
 typing_text: Base de datos
 email: INAOERep@outlook.com
 github_username: AsteroidesINAOE
 twitter_username: inaoe_mx
 
 # CONTACT SECTION
-# show_contact_card:
-# > setting this to true, will display the Contact section
-# > setting this to false, will omit the Contact section
 show_contact_card: true
-# contact_title: The will be displayed as the title in the Contact section
 contact_title: Contactos
-# contact_description: This will be displayed under the title.
 contact_description: 
 
 # GITHUB-METADATA
@@ -58,7 +42,6 @@ projects:
 # > set this to "", if you do not want to track with Google Analytics
 google-analytics:
   id: ""
-
 ### END OF VALUES YOU SHOULD CHANGE ###
 
 plugins:
