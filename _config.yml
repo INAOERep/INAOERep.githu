@@ -1,4 +1,4 @@
-title: INAOERepositorio
+title: Asteroides INAOE
 description: Repositorio para curvas de luz e información de asteroides obtenidos en la cámara Schmidt
 baseurl: "https://asteroidesinaoe.github.io"
 
@@ -10,13 +10,13 @@ twitter_username: inaoe_mx
 
 # CONTACT SECTION
 show_contact_card: true
-contact_title: Contactos
+contact_title: Contacto
 contact_description: 
 
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: INAOERep/INAOERep.github.io
+repository: AsteroidesINAOE/AsteroidesINAOE.github.io
 
 projects:
   # sortby:
