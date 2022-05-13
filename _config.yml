@@ -15,7 +15,8 @@ about_me_title: Asteroides
 about_me_description: ast
 
 show_skills_card: true
-
+skillscard_title: a
+skillscard_descroption:  a
 # CONTACT SECTION
 show_contact_card: true
 contact_title: Contacto
