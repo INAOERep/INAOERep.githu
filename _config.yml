@@ -7,7 +7,13 @@ typing_text: Base de datos
 email: INAOERep@outlook.com
 github_username: AsteroidesINAOE
 twitter_username: inaoe_mx
-logon: BUAP - INAOE
+
+show_aboutme_card: true
+# about_me_title: The will be displayed as the title in the About Me section
+about_me_title: Asteroides
+# about_me_description: This will be displayed under the title.
+about_me_description: ast
+
 # CONTACT SECTION
 show_contact_card: true
 contact_title: Contacto
