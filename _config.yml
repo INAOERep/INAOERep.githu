@@ -14,6 +14,7 @@ about_me_title: Asteroides
 # about_me_description: This will be displayed under the title.
 about_me_description: ast
 
+show_skills_card: true
 
 # CONTACT SECTION
 show_contact_card: true
