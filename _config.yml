@@ -20,11 +20,11 @@ actividades_title: Actividades
 # about_me_description: This will be displayed under the title.
 actividades_description:
 
-show_nombres-ast_card: true
+show_nombres_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-nombres-ast_title: ¿Cómo se nombran los asteroides?
+nombres_title: ¿Cómo se nombran los asteroides?
 # about_me_description: This will be displayed under the title.
-nombres-ast_description:
+nombres_description:
 
 # CONTACT SECTION
 show_contact_card: true
