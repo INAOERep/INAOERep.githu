@@ -38,6 +38,13 @@
       </section>
     {% endif %}
     
+    
+    {%if site.show_nombres-ast_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-nombres-ast.html %}
+      </section>
+    {% endif %}
+    
     {%if site.show_actividades_card %}
       <section class="card neumorphism-card-big">
         {% include section-actividades.html %}
