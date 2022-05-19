@@ -20,6 +20,12 @@ actividades_title: Actividades
 # about_me_description: This will be displayed under the title.
 actividades_description:
 
+show_nombres_ast_card: true
+# about_me_title: The will be displayed as the title in the About Me section
+nombres_ast_title: ¿Cómo se nombran los asteroides?
+# about_me_description: This will be displayed under the title.
+nombres_ast_description:
+
 # CONTACT SECTION
 show_contact_card: true
 contact_title: Contacto
