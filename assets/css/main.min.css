@@ -13,4 +13,5 @@
 .boton_personalizado:hover{
     color: #00080f;
     background-color: white;
+    transition: 0.6s;
   }
