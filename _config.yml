@@ -22,9 +22,9 @@ actividades_description:
 
 show_aprender_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-nombres_title: Aprender más
+aprender_title: Aprender más
 # about_me_description: This will be displayed under the title.
-nombres_description:
+aprender_description:
 
 # CONTACT SECTION
 show_contact_card: true
