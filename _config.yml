@@ -14,6 +14,12 @@ about_me_title: ¿Qué es un asteroide?
 # about_me_description: This will be displayed under the title.
 about_me_description:
 
+show_fotometria_card: true
+# about_me_title: The will be displayed as the title in the About Me section
+fotometria_title: Fotometría
+# about_me_description: This will be displayed under the title.
+about_me_description:
+
 show_actividades_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 actividades_title: Actividades
