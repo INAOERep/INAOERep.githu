@@ -38,6 +38,17 @@
       </section>
     {% endif %}
     
+    {%if site.show_fotometria_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-fotometria.html %}
+      </section>
+    {% endif %}
+    
+    {%if site.show_espectroscopia_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-espectroscopia.html %}
+      </section>
+    {% endif %}
     
     {%if site.show_actividades_card %}
       <section class="card neumorphism-card-big">
