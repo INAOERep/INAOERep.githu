@@ -50,18 +50,29 @@
       </section>
     {% endif %}
     
-    {%if site.show_actividades_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-actividades.html %}
-      </section>
-    {% endif %}
-    
     {%if site.show_aprender_card %}
       <section class="card neumorphism-card-big">
         {% include section-aprender.html %}
       </section>
     {% endif %}
     
+    {%if site.show_infografias_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-infografias.html %}
+      </section>
+    {% endif %}
+    
+    {%if site.show_actividades_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-actividades.html %}
+      </section>
+    {% endif %}
+    
+    {%if site.show_glosario_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-glosario.html %}
+      </section>
+    {% endif %}
     
     {%if site.show_skills_card %}
       <section class="card neumorphism-card-big">
@@ -78,6 +89,7 @@
         {% include section-projects.html %}
       </section>
     {% endif %}
+    
     {%if site.show_contact_card %}
     <section class="card neumorphism-card-big">
       {% include section-contact.html %}
