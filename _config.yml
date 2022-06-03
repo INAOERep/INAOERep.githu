@@ -38,6 +38,18 @@ aprender_title: Aprender más
 # about_me_description: This will be displayed under the title.
 aprender_description:
 
+show_infografias_card: true
+# about_me_title: The will be displayed as the title in the About Me section
+infografias_title: Infografías
+# about_me_description: This will be displayed under the title.
+infografias_description:
+
+show_glosario_card: true
+# about_me_title: The will be displayed as the title in the About Me section
+glosario_title: Glosario
+# about_me_description: This will be displayed under the title.
+glosario_description:
+
 # CONTACT SECTION
 show_contact_card: true
 contact_title: Contacto
