@@ -15,3 +15,8 @@
     background-color: white;
     transition: 0.6s;
   }
+
+.contenido {
+ display: flex;
+ flex-flow: column;
+}
