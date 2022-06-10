@@ -23,5 +23,5 @@
 
 .contenido2 {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
 }
