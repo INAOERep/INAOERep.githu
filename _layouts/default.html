@@ -45,7 +45,29 @@
     </ul>
   </div>
   
-  
+  <script>
+    const grande =document.querySelector('.grande')
+    const punto =document.querySelectorAll('.punto')+
+    // Cuando CLICK en punto
+      // Saber la posición de ese punto
+      // Aplicar un transform translateX al grande
+      // Quitar la clase activo de todos los puntos
+      // Añadir la clase activo al punto que hemos hecho CLICK
+
+    punto.forEach( ( cadaPunto , i)=> {
+      punto[i].addEventListener('click',()=>{
+        let posicion = i
+        let operacion =posicion * -50
+
+        gran.style.transform = 'translateX(${operacion }%)'
+      })
+    })
+
+  </script>
+
+
+
+
   
   
   <div class="layout">
