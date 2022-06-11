@@ -26,6 +26,7 @@ li{
     max-width: 120em;
     padding:2em;
     @include neo(1,1em,1em);
+    margin: 0;
     overflow-x: hidden;
   }
   .carrusel .grande{
