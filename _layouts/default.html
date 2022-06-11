@@ -50,12 +50,6 @@
       </section>
     {% endif %}
     
-    {%if site.show_aprender_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-aprender.html %}
-      </section>
-    {% endif %}
-    
     {%if site.show_infografias_card %}
       <section class="card neumorphism-card-big">
         {% include section-infografias.html %}
@@ -71,6 +65,12 @@
     {%if site.show_glosario_card %}
       <section class="card neumorphism-card-big">
         {% include section-glosario.html %}
+      </section>
+    {% endif %}
+    
+    {%if site.show_aprender_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-aprender.html %}
       </section>
     {% endif %}
     
