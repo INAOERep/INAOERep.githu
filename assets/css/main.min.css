@@ -38,9 +38,14 @@
     width: 100%;
     background-color: red;
     padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
   }
   .carrusel.punto{
-    width: 1em;
-    height: 1em;
+    width: 2em;
+    height: 2em;
     background-color: blue;
+    margin: 1em;
   }
