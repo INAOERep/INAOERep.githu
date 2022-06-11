@@ -16,7 +16,9 @@
     transition: 0.6s;
   }
 
-
+li{
+  list-style: none;
+}
   
 
   .carrusel{
