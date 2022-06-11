@@ -60,6 +60,7 @@
     margin: 1em 1em 0;
     @include neo(1,1em,0.6em);
     list-style: none;
+    background-color: #007bb6;
   }
 
   .carrusel .punto.activo{
