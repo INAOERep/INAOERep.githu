@@ -17,6 +17,7 @@
   }
 
 
+
   .carrusel{
     width: 90%;
     max-width: 120em;
@@ -31,6 +32,10 @@
     align-items: center;
     @include neo(1,1em,1em);
     padding: 2em;
+
+
+    transition: all 0.5s ease;
+    transform: translateX(0%);
   }
   .carrusel .img{
     width: calc(100%/2 -2em);
@@ -51,4 +56,8 @@
     height: 2em;
     margin: 1em 1em 0;
     @include neo(1,1em,0.6em);
+  }
+
+  .carrusel .punto.activo{
+    background-color: orange;
   }
