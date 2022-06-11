@@ -20,24 +20,25 @@
   .carrusel{
     width: 90%;
     max-width: 120em;
-    background-color:skyblue;
+    padding:2em;
+    @include neo(1,1em,1em);
   }
   .carrusel .grande{
     width: 200%;
-    background-color: orange;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
+    @include neo(1,1em,1em);
+    padding: 2em;
   }
   .carrusel .img{
     width: calc(100%/2);
-    background-color: lime;
+    @include neo(1,1em,1em);
   }
   .carrusel .puntos{
     width: 100%;
-    background-color: red;
-    padding: 1em;
+    padding: 0.4em; 
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -46,6 +47,6 @@
   .carrusel .punto{
     width: 2em;
     height: 2em;
-    background-color: blue;
-    margin: 1em;
+    margin: 0.2em;
+    @include neo(1,1em,1em);
   }
