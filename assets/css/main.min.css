@@ -25,3 +25,7 @@
     display: flex;
     flex-flow: column;
 }
+
+.img_centrada{
+    vertical-align: middle;   
+}
