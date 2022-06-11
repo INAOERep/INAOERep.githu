@@ -15,17 +15,3 @@
     background-color: white;
     transition: 0.6s;
   }
-
-.contenido {
-    display: flex;
-    flex-flow: row;
-}
-
-.contenido2 {
-    display: flex;
-    flex-flow: column;
-}
-
-.img_centrada{
-    vertical-align: middle;   
-}
