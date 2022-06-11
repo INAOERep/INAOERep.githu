@@ -25,3 +25,8 @@
     display: flex;
     flex-flow: column;
 }
+
+.img_seccion {
+    margin-top: auto;
+    margin-bottom: auto;
+}
