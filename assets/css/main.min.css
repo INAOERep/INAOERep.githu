@@ -59,6 +59,7 @@
     height: 2em;
     margin: 1em 1em 0;
     @include neo(1,1em,0.6em);
+    list-style: none;
   }
 
   .carrusel .punto.activo{
