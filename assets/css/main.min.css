@@ -52,6 +52,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    style: none;
   }
   .carrusel .punto{
     width: 2em;
