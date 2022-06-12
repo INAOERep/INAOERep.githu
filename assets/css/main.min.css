@@ -22,7 +22,7 @@ li{
   
 
   .carrusel{
-    width: 90%;
+    width: 100%;
     max-width: 120em;
     padding:2em;
     @include neo(1,1em,1em);
