@@ -33,7 +33,6 @@ li{
     width: 200%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
     align-items: center;
     @include neo(1,1em,1em);
     padding: 2em;
