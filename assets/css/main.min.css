@@ -38,12 +38,18 @@ li{
     transition: all 1s ease;
     transform: translateX(0%);
   }
-  .carrusel .img{
+  .carrusel .cuadro{
     width: calc(100%/5);
     min-height: 10vh;
     @include neo(1,1em,1em);
     cursor: pointer;
   }
+
+  .carrusel .cuadro .img{
+    width: 100%;
+    cursor: pointer;
+  }
+
   .carrusel .puntos{
     width: 100%;
     display: flex;
