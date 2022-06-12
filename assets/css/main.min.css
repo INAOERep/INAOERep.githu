@@ -30,7 +30,7 @@ li{
     overflow-x: hidden;
   }
   .carrusel .grande{
-    width: 200%;
+    width: 500%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -40,7 +40,7 @@ li{
     transform: translateX(0%);
   }
   .carrusel .img{
-    width: calc(100%/2);
+    width: calc(100%/5);
     min-height: 10vh;
     @include neo(1,1em,1em);
   }
