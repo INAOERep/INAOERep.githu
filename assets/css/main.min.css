@@ -36,7 +36,7 @@ li{
     align-items: center;
     @include neo(1,1em,1em);
     padding: 2em;
-    transition: all 5s ease;
+    transition: all 1s ease;
     transform: translateX(0%);
   }
   .carrusel .img{
