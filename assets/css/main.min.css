@@ -40,7 +40,7 @@ li{
     transform: translateX(0%);
   }
   .carrusel .img{
-    width: calc(100%/2 -2em);
+    width: calc(100%/2);
     min-height: 10vh;
     @include neo(1,1em,1em);
   }
