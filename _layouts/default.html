@@ -54,17 +54,17 @@
     const grande =document.querySelector('.grande')
     const cuadro =document.querySelectorAll('.cuadro')
 
-    cuadro.forEach( ( cadaCuadro , i)=> {
-      cuadro[i].addEventListener('click',()=>{
+    cuadro.forEach( ( cadaPunto , i)=> {
+      punto[i].addEventListener('click',()=>{
         let posicion = i
         let operacion =posicion * -50
 
         grande.style.transform = `translateX(${operacion }%)`
 
-        cuadro.forEach( ( cadaCuadro , i)=>{
-          cuadro[i].classList.remove('activo')
+        punto.forEach( ( cadaPunto , i)=>{
+          punto[i].classList.remove('activo')
         })
-        cuadro[i].classList.add('activo')
+        punto[i].classList.add('activo')
 
       })
     })
