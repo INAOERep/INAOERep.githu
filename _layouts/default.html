@@ -52,19 +52,19 @@
   
   <script>
     const grande =document.querySelector('.grande')
-    const punto =document.querySelectorAll('.punto')
+    const cuadro =document.querySelectorAll('.cuadro')
 
-    punto.forEach( ( cadaPunto , i)=> {
-      punto[i].addEventListener('click',()=>{
+    cuadro.forEach( ( cadaCuadro , i)=> {
+      cuadro[i].addEventListener('click',()=>{
         let posicion = i
         let operacion =posicion * -50
 
         grande.style.transform = `translateX(${operacion }%)`
 
-        punto.forEach( ( cadaPunto , i)=>{
-          punto[i].classList.remove('activo')
+        cuadro.forEach( ( cadaCuadro , i)=>{
+          cuadro[i].classList.remove('activo')
         })
-        punto[i].classList.add('activo')
+        cuadro[i].classList.add('activo')
 
       })
     })
