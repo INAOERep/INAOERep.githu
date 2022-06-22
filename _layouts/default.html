@@ -101,6 +101,12 @@
       </section>
     {% endif %}
     
+    {%if site.show_riesgo_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-riesgo.html %}
+      </section>
+    {% endif %}
+    
     {%if site.show_actividades_card %}
       <section class="card neumorphism-card-big">
         {% include section-actividades.html %}
