@@ -44,6 +44,12 @@ infografias_title: Infografías
 # about_me_description: This will be displayed under the title.
 infografias_description:
 
+show_riesgo_card: true
+# about_me_title: The will be displayed as the title in the About Me section
+riesgo_title: Riesgo de impacto
+# about_me_description: This will be displayed under the title.
+riesgo_description:
+
 show_glosario_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 glosario_title: Glosario
