@@ -29,6 +29,7 @@ li{
     margin: 0;
     overflow-x: hidden;
   }
+  
   .carrusel .grande{
     width: 500%;
     display: flex;
