@@ -9,16 +9,16 @@
   <title>{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ " /assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ " /assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ " /assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
-  <link rel="manifest" href="{{ " /assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
+  <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
 
-  <link rel="stylesheet" href="{{ " /assets/css/main.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ " /assets/css/vendors.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
 
-  <script src="{{ " /assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ " /assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
 </head>
 
 <body>
@@ -30,19 +30,14 @@
       <hr />
     </div>
   </div>
-
+  
   {% include landing-page.html %}
-
+  
   <div class="carrusel">
     <div class="grande">
-      <a class="cuadro"
-        href="https://www.eluniversal.com.co/ciencia/meteoro-cayo-e-ilumino-la-madrugada-en-santiago-de-chile-YG6800023"
-        target="_blank"><img src="img/meteoro chile 2022.jpg" style="border-image: white;" class="img"></a>
-      <a class="cuadro" href="https://cneos.jpl.nasa.gov/ca/" target="_blank"><img src="img/acercamientos.png"
-          class="img"></a>
-      <a class="cuadro"
-        href="https://www.ngenespanol.com/el-espacio/que-se-sabe-del-asteroide-ryugu-y-el-origen-de-la-vida/"
-        target="_blank"><img src="img/ryugu.png" class="img"></a>
+      <a class="cuadro" href="https://www.eluniversal.com.co/ciencia/meteoro-cayo-e-ilumino-la-madrugada-en-santiago-de-chile-YG6800023" target="_blank"><img src="img/meteoro chile 2022.jpg" style="border-image: white;" class="img"></a>
+      <a class="cuadro" href="https://cneos.jpl.nasa.gov/ca/" target="_blank"><img src="img/acercamientos.png" class="img"></a>
+      <a class="cuadro" href="https://www.ngenespanol.com/el-espacio/que-se-sabe-del-asteroide-ryugu-y-el-origen-de-la-vida/" target="_blank"><img src="img/ryugu.png" class="img"></a>
       <a class="cuadro" href="https://dart.jhuapl.edu/" target="_blank"><img src="img/asteroides1.jpg" class="img"></a>
       <a class="cuadro" href="" target="_blank"><img src="img/asteroides2.jpg" class="img"></a>
     </div>
@@ -54,19 +49,19 @@
       <li class="punto"></li>
     </ul>
   </div>
-
+  
   <script>
-    const grande = document.querySelector('.grande')
-    const punto = document.querySelectorAll('.punto')
+    const grande =document.querySelector('.grande')
+    const punto =document.querySelectorAll('.punto')
 
-    punto.forEach((cadaPunto, i) => {
-      punto[i].addEventListener('click', () => {
+    punto.forEach( ( cadaPunto , i)=> {
+      punto[i].addEventListener('click',()=>{
         let posicion = i
-        let operacion = posicion * -20
+        let operacion =posicion * -20
 
-        grande.style.transform = `translateX(${operacion}%)`
+        grande.style.transform = `translateX(${operacion }%)`
 
-        punto.forEach((cadaPunto, i) => {
+        punto.forEach( ( cadaPunto , i)=>{
           punto[i].classList.remove('activo')
         })
         punto[i].classList.add('activo')
@@ -75,62 +70,62 @@
     })
 
   </script>
-
+  
   <div class="layout">
     {%if site.show_aboutme_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-aboutme.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-aboutme.html %}
+      </section>
     {% endif %}
     {%if site.show_fotometria_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-fotometria.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-fotometria.html %}
+      </section>
     {% endif %}
     {%if site.show_espectroscopia_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-espectroscopia.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-espectroscopia.html %}
+      </section>
     {% endif %}
     {%if site.show_infografias_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-infografias.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-infografias.html %}
+      </section>
     {% endif %}
     {%if site.show_riesgo_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-riesgo.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-riesgo.html %}
+      </section>
     {% endif %}
     {%if site.show_actividades_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-actividades.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-actividades.html %}
+      </section>
     {% endif %}
     {%if site.show_glosario_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-glosario.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-glosario.html %}
+      </section>
     {% endif %}
     {%if site.show_aprender_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-aprender.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-aprender.html %}
+      </section>
     {% endif %}
     {%if site.show_skills_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-skills.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-skills.html %}
+      </section>
     {% endif %}
     {%if site.show_timeline_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-timeline.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-timeline.html %}
+      </section>
     {% endif %}
     {%if site.show_projects_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-projects.html %}
-    </section>
+      <section class="card neumorphism-card-big">
+        {% include section-projects.html %}
+      </section>
     {% endif %}
     {%if site.show_contact_card %}
     <section class="card neumorphism-card-big">
@@ -140,5 +135,4 @@
     {% include footer.html %}
   </div>
 </body>
-
 </html>
