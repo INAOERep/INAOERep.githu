@@ -39,3 +39,19 @@ header{
     height: 110px;
     align-items: center;
   }
+
+  /*Ajustes tamaño de pantalla*/   
+@media screen and (max-width: 900px){
+  .parte_superior{
+      padding: 10px;
+  }
+  .titulo{
+      align-items: center;
+      font-size:22px
+  }
+  .logoimg{
+    display: flex;
+    height: 60px;
+    align-items: center;
+  }
+}
