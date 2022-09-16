@@ -25,6 +25,10 @@ textarea {
       width: 280px;
 }
 
+.menucom{
+  width: 100%;
+}
+
 /* Título de la página */
 .titulo {
   display: flex;
