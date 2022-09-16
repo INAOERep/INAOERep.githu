@@ -26,7 +26,7 @@ textarea {
 }
 
 .menucom{
-  width: 100%;
+  width: 100% !important;
 }
 
 /* Título de la página */
