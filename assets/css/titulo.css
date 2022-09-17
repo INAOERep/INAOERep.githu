@@ -37,6 +37,7 @@ header{
   .logoimg {
     display: flex;
     height: 110px;
+    justify-content: center;
     align-items: center;
   }
 
