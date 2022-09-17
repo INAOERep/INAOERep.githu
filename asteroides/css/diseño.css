@@ -28,7 +28,7 @@ header{
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -39,8 +39,8 @@ header{
 .logoimg {
   display: flex;
   justify-content: center;
-  height: 110px;
   align-items: center;
+  height: 110px;
 }
 
 /* Menú principal */
