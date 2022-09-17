@@ -25,11 +25,11 @@ header{
   color: #066DCC;
   font-weight: bold;
   padding: 33px;
-  font-size: 52px
+  font-size: 50px
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
   display: flex;
   align-items: center;
