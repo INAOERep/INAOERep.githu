@@ -31,7 +31,6 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
-    padding: 10px;
   }
   /* Logo INAOE */
   .logoimg {
@@ -43,9 +42,6 @@ header{
 
   /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 720px){
-  .parte_superior{
-      padding: 10px;
-  }
   .titulo{
       align-items: center;
       font-size:22px
