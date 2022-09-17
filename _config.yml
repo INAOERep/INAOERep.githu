@@ -8,52 +8,52 @@ email: INAOERep@outlook.com
 github_username: AsteroidesINAOE
 twitter_username: inaoe_mx
 
-show_aboutme_card: true
-# about_me_title: The will be displayed as the title in the About Me section
-about_me_title: ¿Qué es un asteroide?
-# about_me_description: This will be displayed under the title.
-about_me_description:
+show_asteroides_card: true
+# asteroides_title: The will be displayed as the title in the About Me section
+asteroides_title: ¿Qué es un asteroide?
+# asteroides_description: This will be displayed under the title.
+asteroides_description:
 
 show_fotometria_card: true
-# about_me_title: The will be displayed as the title in the About Me section
+# fotometria_title: The will be displayed as the title in the About Me section
 fotometria_title: Fotometría
-# about_me_description: This will be displayed under the title.
+# fotometria_description: This will be displayed under the title.
 fotometria_description:
 
 show_espectroscopia_card: true
-# about_me_title: The will be displayed as the title in the About Me section
+# espectroscopia_title: The will be displayed as the title in the About Me section
 espectroscopia_title: Espectroscopía
-# about_me_description: This will be displayed under the title.
+# espectroscopia_description: This will be displayed under the title.
 espectroscopia_description:
 
 show_actividades_card: true
-# about_me_title: The will be displayed as the title in the About Me section
+# actividades_title: The will be displayed as the title in the About Me section
 actividades_title: Actividades
-# about_me_description: This will be displayed under the title.
+# actividades_description: This will be displayed under the title.
 actividades_description:
 
 show_aprender_card: true
-# about_me_title: The will be displayed as the title in the About Me section
+# aprender_title: The will be displayed as the title in the About Me section
 aprender_title: Aprender más
-# about_me_description: This will be displayed under the title.
+# aprender_description: This will be displayed under the title.
 aprender_description:
 
 show_infografias_card: true
-# about_me_title: The will be displayed as the title in the About Me section
+# infografias_title: The will be displayed as the title in the About Me section
 infografias_title: Infografías
-# about_me_description: This will be displayed under the title.
+# infografias_description: This will be displayed under the title.
 infografias_description:
 
 show_riesgo_card: true
-# about_me_title: The will be displayed as the title in the About Me section
+# riesgo_title: The will be displayed as the title in the About Me section
 riesgo_title: Riesgo de impacto
-# about_me_description: This will be displayed under the title.
+# riesgo_description: This will be displayed under the title.
 riesgo_description:
 
 show_glosario_card: true
-# about_me_title: The will be displayed as the title in the About Me section
+# glosario_title: The will be displayed as the title in the About Me section
 glosario_title: Glosario
-# about_me_description: This will be displayed under the title.
+# glosario_description: This will be displayed under the title.
 glosario_description:
 
 # CONTACT SECTION
