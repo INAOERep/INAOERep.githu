@@ -23,8 +23,8 @@ header{
   background: black;
   color: #066DCC;
   font-weight: bold;
-  padding: 15px;
-  font-size: 52px
+  padding: 12px;
+  font-size: 50px
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
@@ -44,6 +44,7 @@ header{
   /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 720px){
   .parte_superior{
+    max-width: 850px;
     padding: 10px;
 }
 .titulo{
