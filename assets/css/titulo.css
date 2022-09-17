@@ -12,8 +12,8 @@
 header{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 0;
+    left: 0;
     background: rgb(0, 0, 0);
   }
 
@@ -24,6 +24,7 @@ header{
     background: black;
     color: #066DCC;
     font-weight: bold;
+    padding: 15px;
     font-size: 50px
   }
   /*HEADER SUPERIOR*/
@@ -43,6 +44,9 @@ header{
 
   /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 720px){
+  .parte_superior{
+    padding: 10px;
+}
   .titulo{
       align-items: center;
       font-size:22px
