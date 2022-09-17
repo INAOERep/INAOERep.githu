@@ -20,12 +20,11 @@ header{
 .titulo {
   display: flex;
   justify-content: center;
-  align-items: center;
   background: black;
   color: #066DCC;
   font-weight: bold;
-  padding: 0px;
-  font-size: 48px
+  padding: 15px;
+  font-size: 52px
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
@@ -33,7 +32,7 @@ header{
   margin: auto;
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 /* Logo INAOE */
 .logoimg {
