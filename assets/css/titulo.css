@@ -44,7 +44,7 @@ header{
   /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 720px){
   .parte_superior{
-    max-width: 850px;
+    max-width: 95%;
     padding: 10px;
 }
 .titulo{
