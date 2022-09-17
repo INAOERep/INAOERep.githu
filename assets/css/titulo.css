@@ -24,12 +24,12 @@ header{
   background: black;
   color: #066DCC;
   font-weight: bold;
-  padding: 33px;
-  font-size: 50px
+  padding: 20px;
+  font-size: 48px
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
   display: flex;
   align-items: center;
