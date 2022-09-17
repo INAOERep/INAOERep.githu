@@ -29,11 +29,11 @@ header{
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   align-items: center;
-  padding: 0px;
+  padding: 5px;
 }
 /* Logo INAOE */
 .logoimg {
