@@ -23,7 +23,7 @@ header{
   background: black;
   color: #066DCC;
   font-weight: bold;
-  padding: 0px 10px 0px 0px;
+  padding-right: 10px;
   font-size: 50px
 }
 /*HEADER SUPERIOR*/
@@ -45,15 +45,15 @@ header{
 @media screen and (max-width: 800px){
   .parte_superior{
     max-width: 95%;
-    padding: 15px;
+    padding-top: 15px;
 }
 .titulo{
     align-items: center;
-    font-size:22px
+    font-size:24px
 }
 .logoimg{
   display: flex;
-  height: 60px;
+  height: 50px;
   align-items: center;
 }
 }
