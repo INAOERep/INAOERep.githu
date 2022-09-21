@@ -42,7 +42,7 @@ header{
 }
 
   /*Ajustes tamaño de pantalla*/   
-@media screen and (max-width: 720px){
+@media screen and (max-width: 800px){
   .parte_superior{
     max-width: 95%;
     padding: 15px;
