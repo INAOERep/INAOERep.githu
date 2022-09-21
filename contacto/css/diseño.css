@@ -9,17 +9,10 @@
 body{
   background-color: #000000;
 }
-header{
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: rgb(0, 0, 0);
-}
 
 textarea {
       resize: none;
       border: none;
-      background: #131313;
       color: white;
       padding-left: 35px;
       width: 280px;
@@ -29,30 +22,6 @@ textarea {
   width: 100% !important;
 }
 
-/* Título de la página */
-.titulo {
-  display: flex;
-  justify-content: center;
-  background: black;
-  color: #066DCC;
-  font-weight: bold;
-  padding: 33px;
-  font-size: 52px
-}
-/*HEADER SUPERIOR*/
-.parte_superior{
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  padding: 0px;
-}
-/* Logo INAOE */
-.logoimg {
-  display: flex;
-  height: 110px;
-  align-items: center;
-}
 
 /* Menú principal */
   /*BARRA MENU*/
@@ -379,19 +348,7 @@ label {
 }
 
 /*Ajustes tamaño de pantalla*/   
-@media screen and (max-width: 900px){
-    .parte_superior{
-        padding: 10px;
-    }
-    .titulo{
-        align-items: center;
-        font-size:22px
-    }
-    .logoimg{
-      display: flex;
-      height: 60px;
-      align-items: center;
-    }
+@media screen and (max-width: 800px){
     nav > ul{
       flex-direction: column;
       background-color: #023877;
@@ -457,14 +414,8 @@ label {
     }
 }
 
-@media screen and (max-width: 400px){
-    .modal-content {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 700px;
-    }
-}
+
+
 
 /* Pie de página */
 #header_wrap2 {
