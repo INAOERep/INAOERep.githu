@@ -20,6 +20,8 @@ p {
   word-spacing: 0.1rem;
 }
 a {
+  display: flex;
+  align-items: center;
   color: #066dcc;
   text-decoration: none;
 }
