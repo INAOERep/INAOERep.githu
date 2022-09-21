@@ -20,9 +20,7 @@ p {
   word-spacing: 0.1rem;
 }
 a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-bottom: 20px;
   color: #066dcc;
   text-decoration: none;
 }
