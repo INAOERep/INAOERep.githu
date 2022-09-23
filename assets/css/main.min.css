@@ -20,6 +20,7 @@ p {
   word-spacing: 0.1rem;
 }
 a {
+  padding: 6px;
   color: #066dcc;
   text-decoration: none;
 }
