@@ -461,8 +461,10 @@ label {
 }
 
 /* Pie de página */
-#header_wrap2 {
-  justify-items: center;
-  align-items: flex-end;
-  margin: 0px;
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(5, 5, 5);
+  padding: 1em 0;
+  margin-top: auto;
 }
