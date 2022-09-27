@@ -190,6 +190,8 @@ header{
 }
 
 a {
+  display: flex;
+  justify-content: center;
   color: #0099FF;
 }
 
