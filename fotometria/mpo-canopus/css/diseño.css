@@ -190,8 +190,6 @@ header{
 }
 
 a {
-  display: flex;
-  justify-content: center;
   color: #0099FF;
 }
 
@@ -208,7 +206,6 @@ a.contenido {
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
-  padding: 0 20px 0 20px;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #3b3b3b;
   width:70%;
 }
