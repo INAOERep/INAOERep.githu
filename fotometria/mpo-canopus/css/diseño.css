@@ -206,6 +206,7 @@ a.contenido {
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
+  padding: 0 20px 0 20px;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #3b3b3b;
   width:70%;
 }
@@ -444,6 +445,8 @@ label {
 footer{
   display: flex;
   justify-content: center;
+  text-align: center;
+  font-size: 13px;
   background-color: rgb(5, 5, 5);
   padding: 1em 0;
   margin-top: auto;
