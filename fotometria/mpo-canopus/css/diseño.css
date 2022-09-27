@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 body{
-  background-color: #000000;
+  background-color: black;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -189,20 +189,6 @@ header{
   visibility: visible;
 }
 
-.indice {
-  background: #54ABFA;
-  margin: 50px 10px 0 10px;
-  width: 35%;
-  height: 100%;
-  padding: 20px 60px 20px 20px;
-  border-radius: 3px;
-  position: sticky;
-  top: 80px;
-  z-index: 2;
-  display: block;
-  box-shadow: 5px 5px 4px #162635, -5px -5px 4px #6b8196;
-}
-
 a {
   color: #0099FF;
 }
@@ -223,6 +209,9 @@ a.contenido {
 
 /* Texto general */
 .texto { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
