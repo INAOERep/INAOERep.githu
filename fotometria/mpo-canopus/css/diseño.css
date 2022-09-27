@@ -35,10 +35,12 @@ header{
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0px;
 }
 /* Logo INAOE */
 .logoimg {
+  margin: 0px 8px 0px 0px;
   display: flex;
   height: 110px;
   align-items: center;
@@ -206,11 +208,14 @@ a.contenido {
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
-  padding: 0 40px 0 40px;
+  padding: 0 3% 0 3%;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
-  width:65%;
 }
 
+.Brillo{
+  padding-left: 17%;
+  padding-right: 23%;
+}
 img {
   border-image:white;
   border-width: 1px;
@@ -359,7 +364,7 @@ label {
         font-size:22px
     }
     .logoimg{
-      margin: 0px 20px 0px 20px;
+      margin: 0px 0px;
       height: 60px;
       display: flex;
       align-items: center;
@@ -426,8 +431,10 @@ label {
 
     .texto{
       width: 95%;
-      margin: 20px 10px 20px 10px;
-      padding: 0 15px 0 15px;
+    }
+    .Brillo{
+      padding-left: 0;
+      padding-right: 0;
     }
     .imagen{
       width: 90%;
