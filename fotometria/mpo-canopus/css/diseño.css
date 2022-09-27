@@ -204,7 +204,6 @@ a.contenido {
 .texto { 
   display: flex;
   justify-content: center;
-  align-items: center;
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
@@ -426,7 +425,8 @@ label {
     }
 
     .texto{
-      width: 100%;
+      width: 95%;
+      margin: 20px 10px 20px 10px;
     }
     .imagen{
       width: 90%;
