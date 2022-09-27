@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>Fourier</title>
     <meta charset="UTF-8">
@@ -8,7 +7,7 @@
     <script src="https://kit.fontawesome.com/41bcea2ae3.js"  ></script>
     <script src="https://code.jquery.com/jquery.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-    <link rel="stylesheet" href="css/diseño.css">
+    <link rel="stylesheet" href="../diseño.css">
 </head>
 
 <body>
@@ -67,209 +66,208 @@
     </div>
   </div>
 
-      <center>
-        <div class="texto">
-          <font color="white">
-          <div class="capa"><a name="indice1"></a></div>
-          <h2>Análisis de Fourier<br><br></h2>
-          <p>
-            Muchas veces hemos escuchado los términos: frecuencia, periodo, oscilación, telecomunicaciones, entre otros.
-            Estos términos tan comunes en la vida cotidiana son mencionados de manera casi automática que esconde la
-            profundidad de ellos, a la vez que impide su comprensión en los fenómenos que suceden en la sociedad
-            contemporánea, dejándo el trabajo a los ingenieros y físicos, esos seres que hablan un idioma que nadie
-            entiende, solamente ellos. <br><br>
-          </p>
-          <p>
-            En nuestro día a día, vemos: sucesos, hechos, fenómenos y acontecimientos que se repiten cada cierto tiempo.
-            Por ejemplo, nosotros sabemos que el Sol se ocultan debajo del horizonte y que es cuestión de tiempo para
-            que
-            vuelva a emerger del horizonte; vemos que cada cierto tiempo, el reloj completa una vuelta y que es cuestión
-            de tiempo para que vuelva a completar otra; sabemos que nuestros padres salen de sus autos camino a sus
-            trabajos, y que al cabo de un tiempo, veremos que los coches regresan. Muchos fenómenos de nuestra vida
-            tienen
-            cierta repetición. Esto es lo que los científicos conocen como frecuencia, esa repetición de algún suceso
-            cada
-            cierto tiempo. En ocasiones, este tiempo necesario para que vuelva a ocurrir ese fenómeno es el mismo, a
-            veces
-            difiere un poco de su valor esperado; a veces las cosas demoran un poco más de lo que pensamos, o por el
-            contrario, a veces son más prontas de lo que esperamos; pero en general, se tiene un valor esperado. Este
-            valor del tiempo en que tarda un fenómeno en volver a suceder, se le conoce como periodo. <br><br>
-          </p>
-          <p>
-            Entonces, muchas personas del pasado se percataron de esto: de la frecuencia y del periodo en su vida
-            cotidiana; lo que pocas personas se percataron es que precisamente estos fenómenos que tienen cierta
-            repetición o periodicidad pueden ser modelados con un lápiz y una hoja, es decir, genios del pasado
-            redujeron
-            la naturaleza a expresiones abstractas donde en lugar de dibujar ese fenómeno y su periodo, ellos
-            construyeron
-            una nueva forma de representar estos fenómenos periódicos: funciones periódicas. <br><br>
-            <div align="center"><img src="0001.png" width="30%"></div><br><br>
-          </p>
-          
-          <p>
-            Es probable que hayas visto esta gráfica en algún lugar, en televisión, en el cine, en libros, en el
-            pizarrón
-            de tu salón de clases, entre otros. Esta gráfica es un ejemplo de una función perídica, es decir, esta
-            gráfica
-            representa un fenómeno que se repite cada cierto lapso de tiempo. El eje horizontal representa el tiempo,
-            mientras que el eje vertical representa la magnitud de este fenómeno. Pero, ¿a qué se refiere con magnitud?
-            Veamos un ejemplo ilustrado en las figuras 2 y 3. <br><br>
-            <div align="center"><img src="unión.png" width="55%"></div><br><br>
-          </p>
-          <p>
-            En la figura anterior se ve que el brillo del Sol es muy poco, la iluminación es muy pobre, casi obscura;
-            mientras que en la tercera figura, se ve que el brillo del Sol es mucho mayor, mucha iluminación. Pues esto
-            puede ser representado en la gráfica. Sabemos que cuando el Sol está saliendo del horizonte hay poco brillo,
-            está muy oscuro, pero conforme va pasando el tiempo, su brillo comienza a aumentar hasta que llega a su
-            punto
-            a mediodía, para posteriormente, comenzar a disminuir hasta que anochezca. Pues este grado del brillo del
-            sol
-            a diferentes momentos es la magnitud de la que se comentó antes. <br><br>
-          </p>
-          <p>
-            Ahora, estos fenómenos periódicos son muy complejos, es decir, su modelaje o representación en una función
-            es
-            sumamente complicada porque intervienen muchos factores. Por ejemplo, para representar el brillo del Sol no
-            basta con la luminosidad de éste, sino también afecta la presencia de nubes, la ubicación geográfica de la
-            Tierra, los ciclos solares, entre otros. Todo esto para analizar una cierta característica del fenómeno, ya
-            que también este sistema (Sol) otorga más información, como la variación de la temperatura ambiental, la
-            variación del color debido a la atmósfera y a la inclinación, entre otros. Entonces, todo esto puede
-            complejizarse bastante. Por ello, es conveniente prestar atención solo a cierta característica en la que
-            estemos interesados; en nuestro ejemplo: el brillo del Sol. <br><br>
-          </p>
-          <p>
-            Entonces, ciertas características de los fenómenos periódicos pueden ser modelados con las herramientas
-            matemáticas apropiadas para estudiarlos y aprender de ellos, y usar ese conocimiento para el beneficio de la
-            sociedad. <br><br>
-          </p>
-          <p>
-            Pero la naturaleza no deja las cosas tan sencillas, si fuera así, nadie necesitaría esforzarse. Y es que al
-            intentar modelar estos fenómenos periódicos, suele suceder que son bastante complicados. Por ejemplo, la primera imagen
-            no parece nada fácil de reproducir.
-          </p>
-          <p>
-            En la primera imagen, parece una tarea ardúa el intentar estudiar esta función por la forma que tiene y su
-            comportamiento como función del tiempo. Esto representó un problema para los físicos y matemáticos del
-            pasado,
-            hasta que llegó un personaje bastante ingenioso que resolvió el problema: Joseph Fourier. <br><br>
-            <div align="center"><img src="0005.jpg" width="15%"></div><br><br>
-          </p>
-          <p>
-            Fourier comprendió que las funciones periódicas son, en general, complicadas. Así que buscó la manera de
-            representarlas en términos de funciones muy conocidas: las llamadas funciones seno y coseno. Él se percató
-            de
-            que estas funciones periódicas complicadas pueden representarse en términos de funciones trigonométricas
-            mediante na suma infinita de estos términos cuyas frecuencias son múltiplos de la frecuencia original. Este
-            método matemático se conoce como la serie de Fourier. <br><br>
-            <div align="center"><img src="0006.jpg" width="50%"></div><br><br
-          </p>
-          <p>
-            En la figura anterior, se aprecia la gran ventaja de este método. Ahora ya es más sencillo analizar la función
-            original porque este método lo que hace es que aproxima un conjunto de funciones seno y coseno a la función
-            original de tal manera que replica la función original, permitiendo su estudio de una manera más sencilla y
-            eficiente. <br><br>
-          </p>
-          <p>
-            Desafortunadamente, la gran mayoría de fenómenos que ocurren en la naturaleza no tienen periodo, es decir,
-            solo suceden una vez, o su periodo es tan largo que a efectos prácticos pueden considerarse como aperiódicas
-            o
-            que estos fenómenos no siguen una repetición constante. En ese caso, se requiere una herramienta matemática
-            más poderosa. Se requiere artillería pesada: la transformada de Fourier. <br><br>
-          </p>
-          <p>
-            Debido a existen muchos problemas del mundo real que involucran señales no periódicas, para analizarlas se
-            usa
-            la transformada de Fourier, la cual asume un periodo infinito. Aunque no es necesario que sea infinito.
-            <br><br>
-          </p>
-          <p>
-            Para visualizar la utilidad de la transformada de Fourier, consideremos la siguiente imagen. <br><br>
-            <div align="center"><img src="0007.png" width="40%"></div><br><br>
-          </p>
-          <p>
-            Esta señal (información de una característica medible de un fenómeno ) no se aprecia muy díficil, pero
-            tampoco
-            es sencilla si no se sabe cómo tratarla. Lo deseable es que esta señal se pueda descomponer en señales más
-            sencillas de analizar, más familiares. <br><br>
-            <div align="center"><img src="0008.png" width="25%"></div><br><br>
-          </p>
-          <p>
-            La figura anterior muestra dos señales periódicas sencillas de tratar. Se desea hacer de la figura anterior a ésta algo muy
-            similar a la figura de arriba, y de hecho, lo es. La figura anterior muestra que si se suman las dos señales en línea discontinua, la señal
-            resultante es la línea continua. Esto parece sugerir que hay maneras de lograr esto, y no
-            solo
-            por el ingenio de alguien brillante. De hecho, esta es una de las utilidades de la transformada de Fourier.
-            La transformada de Fourier es una herramienta matemática que permite descomponer una señal no
-            periódica en sus armónicos contituyentes. Este hecho queda ilustrado en la siguiente imagen. <br><br>
-            <div align="center"><img src="0009.png" width="45%"></div><br><br>
-          </p>
-          <p>
-            La señal en color rojo periódica representa la señal original a la que se le está midiendo la magnitud de
-            una
-            característica y su periodo. Cuando se le aplica la transformada de Fourier, descomponemos esta señal
-            original
-            en términos de funciones seno, coseno y sumas entre ellos (lo que se conoce como combinación lineal). No
-            solo
-            se puede hacer esto, sino que cuando se tienen las señales constituyentes, estas se pueden graficar en
-            función
-            de su frecuencia. <br><br>
-            <div align="center"><img src="0010.png" width="40%"></div><br><br>
-          </p>
-          <p>
-            Es importante diferenciar esta imagen, ya que en una gráfica se aprecian que el eje horizontal es con
-            respecto
-            al tiempo; mientras que la segunda es con respecto a la frecuencia. La segunda gráfica muestra algo muy
-            interesante y es que nos permite analizar las señales en términos de su frecuencia. Una característica muy
-            importante de las señales, es que su energía está íntimamente conectada a su frecuencia. Esto es, si la
-            frecuencia es muy alta, la señal es muy enegética; mientras que si su frecuencia es baja, la señal es poco
-            energética. En otras palabras, la transformada de Fourier nos dice la manera en cómo se distribuye la
-            energía
-            de la señal en función de la frecuencia, y a mayor profundidad, revela el espectro de la señal. <br><br>
-          </p>
-          <p>
-            Ahora, ¿de qué me sirve saber esto? ¿En qué me afecta la serie de Fourier? <br><br>
-          </p>
-          <p>
-            Una pregunta más acertada sería, ¿en qué no me afecta? Todos los procesos de telecomunicaciones requieren el
-            análisis de Fourier. Las señales que se transmiten en el aire deben llegar a sus destinos sin mezclarse, es
-            decir, debe haber un orden de éstas en el aire. Esto sucede así porque al sintonizar la radio en una
-            estación
-            cualquiera, al encender la televisión, al revisar el teléfono celular no se reciben audios, imágenes o
-            señales
-            mezcladas porque los aparatos utilizados están diseñados para diferenciar las distintas frecuencias provenientes
-            de una fuente. Por ejemplo, en el aire se emiten ondas de radio a distintas frecuencias y como son ondas,
-            éstas poseen la propiedad de superposición, esto es, las dos ondas se suman. Esto significa que si las pudiéramos
-            escuchar sería los sonidos mezclados, haciendo todo esto muy confuso. Esto mismo también sucedería con imágenes.
-            Por esto, al calibrar la frecuencia del aparato, se consigue ignorar las otras señales, y solo aceptar la señal de
-            interés. Esto también aplica al rudido acústico.<br><br>
-            <div align="center"><img src="0011.png" width="35%"></div><br><br>
-          </p>
-          <p>
-            Lo anterior también aplica a las ondas electromagnéticas, es decir, la luz, ondas de microondas, de radio, entre otros.
-            Como éstas viajan en el aire, también se pueden superponer, y por lo tanto, también se puede aplicar el análisis de
-            Fourier. Se puede utilizar el espectro electromagnético para transmitir señales de radio, televisión, telefonía celular
-            y wifi en un ambiente para que los aparatos electrónicos reciban lo que necesiten. Estos aparatos son capaces de elegir
-            las frecuencias que necesitan.<br><br>
-          </p>
-          <p>
-            Otra aplicación en ingeniería civil es el análisis del comportamiento de grandes estructuras, tales como los puentes, ante
-            fuerzas provocadas por viento o movimientos telúricos como los sismos. Además, hay una nueva aplicación que es el
-            reconocimiento de la voz o la identificación biométrica por sonido.<br><br>
-          </p>
-          <p>
-            Se ha visto que este análisis está presente en la vida de toda la sociedad contemporánea en todos los ámbitos, desde
-            telecomunicaciones mediante aparatos, internet, imágenes, sonidos. También está en las estructuras arquitectónicas, entre otros.<br><br>
-          </p>
-        </font>
-      </div>
-    </div>
-  </center>
+<div class="Brillo">
+  <div class="texto">
+  <font color="white">
+    <div class="capa"><a name="indice1"></a></div>
+    <h2>Análisis de Fourier<br><br></h2>
+    <p>
+      Muchas veces hemos escuchado los términos: frecuencia, periodo, oscilación, telecomunicaciones, entre otros.
+      Estos términos tan comunes en la vida cotidiana son mencionados de manera casi automática que esconde la
+      profundidad de ellos, a la vez que impide su comprensión en los fenómenos que suceden en la sociedad
+      contemporánea, dejándo el trabajo a los ingenieros y físicos, esos seres que hablan un idioma que nadie
+      entiende, solamente ellos. <br><br>
+    </p>
+    <p>
+      En nuestro día a día, vemos: sucesos, hechos, fenómenos y acontecimientos que se repiten cada cierto tiempo.
+      Por ejemplo, nosotros sabemos que el Sol se ocultan debajo del horizonte y que es cuestión de tiempo para
+      que
+      vuelva a emerger del horizonte; vemos que cada cierto tiempo, el reloj completa una vuelta y que es cuestión
+      de tiempo para que vuelva a completar otra; sabemos que nuestros padres salen de sus autos camino a sus
+      trabajos, y que al cabo de un tiempo, veremos que los coches regresan. Muchos fenómenos de nuestra vida
+      tienen
+      cierta repetición. Esto es lo que los científicos conocen como frecuencia, esa repetición de algún suceso
+      cada
+      cierto tiempo. En ocasiones, este tiempo necesario para que vuelva a ocurrir ese fenómeno es el mismo, a
+      veces
+      difiere un poco de su valor esperado; a veces las cosas demoran un poco más de lo que pensamos, o por el
+      contrario, a veces son más prontas de lo que esperamos; pero en general, se tiene un valor esperado. Este
+      valor del tiempo en que tarda un fenómeno en volver a suceder, se le conoce como periodo. <br><br>
+    </p>
+    <p>
+      Entonces, muchas personas del pasado se percataron de esto: de la frecuencia y del periodo en su vida
+      cotidiana; lo que pocas personas se percataron es que precisamente estos fenómenos que tienen cierta
+      repetición o periodicidad pueden ser modelados con un lápiz y una hoja, es decir, genios del pasado
+      redujeron
+      la naturaleza a expresiones abstractas donde en lugar de dibujar ese fenómeno y su periodo, ellos
+      construyeron
+      una nueva forma de representar estos fenómenos periódicos: funciones periódicas. <br><br>
+      <div align="center"><img src="0001.png" width="30%"></div><br><br>
+    </p>
+    
+    <p>
+      Es probable que hayas visto esta gráfica en algún lugar, en televisión, en el cine, en libros, en el
+      pizarrón
+      de tu salón de clases, entre otros. Esta gráfica es un ejemplo de una función perídica, es decir, esta
+      gráfica
+      representa un fenómeno que se repite cada cierto lapso de tiempo. El eje horizontal representa el tiempo,
+      mientras que el eje vertical representa la magnitud de este fenómeno. Pero, ¿a qué se refiere con magnitud?
+      Veamos un ejemplo ilustrado en las figuras 2 y 3. <br><br>
+      <div align="center"><img src="unión.png" width="55%"></div><br><br>
+    </p>
+    <p>
+      En la figura anterior se ve que el brillo del Sol es muy poco, la iluminación es muy pobre, casi obscura;
+      mientras que en la tercera figura, se ve que el brillo del Sol es mucho mayor, mucha iluminación. Pues esto
+      puede ser representado en la gráfica. Sabemos que cuando el Sol está saliendo del horizonte hay poco brillo,
+      está muy oscuro, pero conforme va pasando el tiempo, su brillo comienza a aumentar hasta que llega a su
+      punto
+      a mediodía, para posteriormente, comenzar a disminuir hasta que anochezca. Pues este grado del brillo del
+      sol
+      a diferentes momentos es la magnitud de la que se comentó antes. <br><br>
+    </p>
+    <p>
+      Ahora, estos fenómenos periódicos son muy complejos, es decir, su modelaje o representación en una función
+      es
+      sumamente complicada porque intervienen muchos factores. Por ejemplo, para representar el brillo del Sol no
+      basta con la luminosidad de éste, sino también afecta la presencia de nubes, la ubicación geográfica de la
+      Tierra, los ciclos solares, entre otros. Todo esto para analizar una cierta característica del fenómeno, ya
+      que también este sistema (Sol) otorga más información, como la variación de la temperatura ambiental, la
+      variación del color debido a la atmósfera y a la inclinación, entre otros. Entonces, todo esto puede
+      complejizarse bastante. Por ello, es conveniente prestar atención solo a cierta característica en la que
+      estemos interesados; en nuestro ejemplo: el brillo del Sol. <br><br>
+    </p>
+    <p>
+      Entonces, ciertas características de los fenómenos periódicos pueden ser modelados con las herramientas
+      matemáticas apropiadas para estudiarlos y aprender de ellos, y usar ese conocimiento para el beneficio de la
+      sociedad. <br><br>
+    </p>
+    <p>
+      Pero la naturaleza no deja las cosas tan sencillas, si fuera así, nadie necesitaría esforzarse. Y es que al
+      intentar modelar estos fenómenos periódicos, suele suceder que son bastante complicados. Por ejemplo, la primera imagen
+      no parece nada fácil de reproducir.
+    </p>
+    <p>
+      En la primera imagen, parece una tarea ardúa el intentar estudiar esta función por la forma que tiene y su
+      comportamiento como función del tiempo. Esto representó un problema para los físicos y matemáticos del
+      pasado,
+      hasta que llegó un personaje bastante ingenioso que resolvió el problema: Joseph Fourier. <br><br>
+      <div align="center"><img src="0005.jpg" width="15%"></div><br><br>
+    </p>
+    <p>
+      Fourier comprendió que las funciones periódicas son, en general, complicadas. Así que buscó la manera de
+      representarlas en términos de funciones muy conocidas: las llamadas funciones seno y coseno. Él se percató
+      de
+      que estas funciones periódicas complicadas pueden representarse en términos de funciones trigonométricas
+      mediante na suma infinita de estos términos cuyas frecuencias son múltiplos de la frecuencia original. Este
+      método matemático se conoce como la serie de Fourier. <br><br>
+      <div align="center"><img src="0006.jpg" width="50%"></div><br><br
+    </p>
+    <p>
+      En la figura anterior, se aprecia la gran ventaja de este método. Ahora ya es más sencillo analizar la función
+      original porque este método lo que hace es que aproxima un conjunto de funciones seno y coseno a la función
+      original de tal manera que replica la función original, permitiendo su estudio de una manera más sencilla y
+      eficiente. <br><br>
+    </p>
+    <p>
+      Desafortunadamente, la gran mayoría de fenómenos que ocurren en la naturaleza no tienen periodo, es decir,
+      solo suceden una vez, o su periodo es tan largo que a efectos prácticos pueden considerarse como aperiódicas
+      o
+      que estos fenómenos no siguen una repetición constante. En ese caso, se requiere una herramienta matemática
+      más poderosa. Se requiere artillería pesada: la transformada de Fourier. <br><br>
+    </p>
+    <p>
+      Debido a existen muchos problemas del mundo real que involucran señales no periódicas, para analizarlas se
+      usa
+      la transformada de Fourier, la cual asume un periodo infinito. Aunque no es necesario que sea infinito.
+      <br><br>
+    </p>
+    <p>
+      Para visualizar la utilidad de la transformada de Fourier, consideremos la siguiente imagen. <br><br>
+      <div align="center"><img src="0007.png" width="40%"></div><br><br>
+    </p>
+    <p>
+      Esta señal (información de una característica medible de un fenómeno ) no se aprecia muy díficil, pero
+      tampoco
+      es sencilla si no se sabe cómo tratarla. Lo deseable es que esta señal se pueda descomponer en señales más
+      sencillas de analizar, más familiares. <br><br>
+      <div align="center"><img src="0008.png" width="25%"></div><br><br>
+    </p>
+    <p>
+      La figura anterior muestra dos señales periódicas sencillas de tratar. Se desea hacer de la figura anterior a ésta algo muy
+      similar a la figura de arriba, y de hecho, lo es. La figura anterior muestra que si se suman las dos señales en línea discontinua, la señal
+      resultante es la línea continua. Esto parece sugerir que hay maneras de lograr esto, y no
+      solo
+      por el ingenio de alguien brillante. De hecho, esta es una de las utilidades de la transformada de Fourier.
+      La transformada de Fourier es una herramienta matemática que permite descomponer una señal no
+      periódica en sus armónicos contituyentes. Este hecho queda ilustrado en la siguiente imagen. <br><br>
+      <div align="center"><img src="0009.png" width="45%"></div><br><br>
+    </p>
+    <p>
+      La señal en color rojo periódica representa la señal original a la que se le está midiendo la magnitud de
+      una
+      característica y su periodo. Cuando se le aplica la transformada de Fourier, descomponemos esta señal
+      original
+      en términos de funciones seno, coseno y sumas entre ellos (lo que se conoce como combinación lineal). No
+      solo
+      se puede hacer esto, sino que cuando se tienen las señales constituyentes, estas se pueden graficar en
+      función
+      de su frecuencia. <br><br>
+      <div align="center"><img src="0010.png" width="40%"></div><br><br>
+    </p>
+    <p>
+      Es importante diferenciar esta imagen, ya que en una gráfica se aprecian que el eje horizontal es con
+      respecto
+      al tiempo; mientras que la segunda es con respecto a la frecuencia. La segunda gráfica muestra algo muy
+      interesante y es que nos permite analizar las señales en términos de su frecuencia. Una característica muy
+      importante de las señales, es que su energía está íntimamente conectada a su frecuencia. Esto es, si la
+      frecuencia es muy alta, la señal es muy enegética; mientras que si su frecuencia es baja, la señal es poco
+      energética. En otras palabras, la transformada de Fourier nos dice la manera en cómo se distribuye la
+      energía
+      de la señal en función de la frecuencia, y a mayor profundidad, revela el espectro de la señal. <br><br>
+    </p>
+    <p>
+      Ahora, ¿de qué me sirve saber esto? ¿En qué me afecta la serie de Fourier? <br><br>
+    </p>
+    <p>
+      Una pregunta más acertada sería, ¿en qué no me afecta? Todos los procesos de telecomunicaciones requieren el
+      análisis de Fourier. Las señales que se transmiten en el aire deben llegar a sus destinos sin mezclarse, es
+      decir, debe haber un orden de éstas en el aire. Esto sucede así porque al sintonizar la radio en una
+      estación
+      cualquiera, al encender la televisión, al revisar el teléfono celular no se reciben audios, imágenes o
+      señales
+      mezcladas porque los aparatos utilizados están diseñados para diferenciar las distintas frecuencias provenientes
+      de una fuente. Por ejemplo, en el aire se emiten ondas de radio a distintas frecuencias y como son ondas,
+      éstas poseen la propiedad de superposición, esto es, las dos ondas se suman. Esto significa que si las pudiéramos
+      escuchar sería los sonidos mezclados, haciendo todo esto muy confuso. Esto mismo también sucedería con imágenes.
+      Por esto, al calibrar la frecuencia del aparato, se consigue ignorar las otras señales, y solo aceptar la señal de
+      interés. Esto también aplica al rudido acústico.<br><br>
+      <div align="center"><img src="0011.png" width="35%"></div><br><br>
+    </p>
+    <p>
+      Lo anterior también aplica a las ondas electromagnéticas, es decir, la luz, ondas de microondas, de radio, entre otros.
+      Como éstas viajan en el aire, también se pueden superponer, y por lo tanto, también se puede aplicar el análisis de
+      Fourier. Se puede utilizar el espectro electromagnético para transmitir señales de radio, televisión, telefonía celular
+      y wifi en un ambiente para que los aparatos electrónicos reciban lo que necesiten. Estos aparatos son capaces de elegir
+      las frecuencias que necesitan.<br><br>
+    </p>
+    <p>
+      Otra aplicación en ingeniería civil es el análisis del comportamiento de grandes estructuras, tales como los puentes, ante
+      fuerzas provocadas por viento o movimientos telúricos como los sismos. Además, hay una nueva aplicación que es el
+      reconocimiento de la voz o la identificación biométrica por sonido.<br><br>
+    </p>
+    <p>
+      Se ha visto que este análisis está presente en la vida de toda la sociedad contemporánea en todos los ámbitos, desde
+      telecomunicaciones mediante aparatos, internet, imágenes, sonidos. También está en las estructuras arquitectónicas, entre otros.<br><br>
+    </p>
+  </font>
+  </div>
+</div>
 
-    <div id="header_wrap2" class"outer">
-      <header clas="inner">
-        <p style="background:black; color:white; padding:25px; text-align:center; font-size:15px">2022 - Página diseñada
-          y
-          desarrollada por el grupo de trabajo BUAP-INAOE del programa: Asteroides Cercanos a la Tierra (NEAs)</p>
-        </div>
-      </body>
+  <footer> 
+    <p style="font-size: 13px;"> 
+      2022 - Página diseñada y desarrollada por el grupo de trabajo BUAP-INAOE del programa:
+      Asteroides Cercanos a la Tierra (NEAs)
+    </p>
+  </footer>
+</body>
 </html>
