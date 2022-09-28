@@ -7,7 +7,10 @@
   text-decoration: none;
 }
 body{
-  background-color: #000000;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 header{
   width: 100%;
@@ -28,17 +31,19 @@ header{
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 1250px;
+  max-width: 1350px;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0px;
 }
 /* Logo INAOE */
 .logoimg {
+  margin: 0px 8px 0px 0px;
   display: flex;
-  height: 110px;
   align-items: center;
+  height: 110px;
 }
 
 /* Menú principal */
@@ -91,7 +96,7 @@ header{
     align-items: center;
     padding: 12px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     transition: all 300ms ease;
   }
   nav > ul > li > a:hover{
@@ -189,8 +194,8 @@ header{
 .indice {
   background: #54ABFA;
   margin: 50px 10px 0 10px;
-  width: 35%;
-  height: 100%;
+  width: 40%;
+  height: 9.5%;
   padding: 20px 60px 20px 20px;
   border-radius: 3px;
   position: sticky;
@@ -249,14 +254,17 @@ img {
 }
 
 p {
-  padding: 0 20px 0 10px;
+  color: white;
+  margin:0 2% 3% 2%;
   text-align: justify;
   text-indent: 20px;
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 0 20px 0 10px;
+  margin-bottom: 5%;
   font-size: 40px;
 }
 
@@ -266,7 +274,10 @@ h3 {
 }
 
 h4 {
-  padding: 0 20px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
   font-size: 20px;
 }
 
@@ -375,15 +386,16 @@ label {
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
     .parte_superior{
-        padding: 10px;
+      max-width: 97%;
     }
     .titulo{
         align-items: center;
         font-size:22px
     }
     .logoimg{
-      display: flex;
+      margin: 0px 0px;
       height: 60px;
+      display: flex;
       align-items: center;
     }
     nav > ul{
@@ -454,9 +466,13 @@ label {
       padding-left: 0;
       padding-right: 0;
     }
-    
+
     .imagen{
-      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 6%;
+      width: 95%;
     }
 }
 

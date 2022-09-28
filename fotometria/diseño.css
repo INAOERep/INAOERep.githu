@@ -42,8 +42,8 @@ header{
 .logoimg {
   margin: 0px 8px 0px 0px;
   display: flex;
-  height: 110px;
   align-items: center;
+  height: 110px;
 }
 
 /* Menú principal */
@@ -96,7 +96,7 @@ header{
     align-items: center;
     padding: 12px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     transition: all 300ms ease;
   }
   nav > ul > li > a:hover{
@@ -162,7 +162,7 @@ header{
 
   /*Imagenes*/
   .imagen{
-    width: 50%;
+    width: 70%;
   }
 
   /*ELEMENTOS RESPONSIVOS*/
@@ -184,11 +184,26 @@ header{
     display: none;
   }
 
+
 /* Menú de la página  2*/
 .container2 {
   display: flex;
   flex-flow: row;
   visibility: visible;
+}
+
+.indice {
+  background: #54ABFA;
+  margin: 50px 10px 0 10px;
+  width: 35%;
+  height: 100%;
+  padding: 20px 60px 20px 20px;
+  border-radius: 3px;
+  position: sticky;
+  top: 80px;
+  z-index: 2;
+  display: block;
+  box-shadow: 5px 5px 4px #162635, -5px -5px 4px #6b8196;
 }
 
 a {
@@ -197,6 +212,16 @@ a {
 
 a.contenido {
   color: black;
+}
+
+.indice .indice_titulo {
+  font-size: 20px;
+  color: black;
+  padding: 0 0 0 10px;
+}
+
+.indice .indice_lista {
+  padding: 0 0 0 30px;
 }
 
 
@@ -366,7 +391,7 @@ label {
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
     .parte_superior{
-        max-width: 870px;
+        max-width: 97%;
     }
     .titulo{
         align-items: center;
@@ -447,7 +472,7 @@ label {
       padding-right: 0;
     }
     .imagen{
-      width: 90%;
+      width: 95%;
     }
 }
 
