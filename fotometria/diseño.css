@@ -77,14 +77,14 @@ header{
 
   /*ICONO HOME*/
   nav > ul > li:first-child > a{
-    background-image: url(../img/home.png);
+    background-image: url(../../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 40px;
   }
   nav > ul > li:first-child:hover > a{
-    background-image: url(../img/home.png);
+    background-image: url(../../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -240,7 +240,7 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 7%;
+  margin-bottom: 5%;
   font-size: 40px;
 }
 
@@ -253,7 +253,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 20px 0 10px;
+  margin-bottom: 2%;
   font-size: 20px;
 }
 
@@ -435,7 +435,7 @@ label {
     }
 
     .texto{
-      width: 95%;
+      width: 95%; 
       padding: 10% 4% 6% 4%;
     }
     .Brillo{
@@ -444,15 +444,6 @@ label {
     }
     .imagen{
       width: 90%;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .modal-content {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 700px;
     }
 }
 
