@@ -435,9 +435,8 @@ label {
     }
 
     .texto{
-      width: 95%;
-      
-    padding: 10% 4% 6% 4%;
+      width: 95%; 
+      padding: 10% 4% 6% 4%;
     }
     .Brillo{
       padding-left: 0;
@@ -445,15 +444,6 @@ label {
     }
     .imagen{
       width: 90%;
-    }
-}
-
-@media screen and (max-width: 400px){
-    .modal-content {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 700px;
     }
 }
 
