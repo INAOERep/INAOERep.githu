@@ -208,7 +208,7 @@ a.contenido {
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
-  padding: 5% 3% 3% 3%;
+  padding: 5% 3% 4% 3%;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
 }
 
@@ -233,12 +233,13 @@ p {
   color: white;
   margin:0 0 3% 0;
   text-align: justify;
-  text-indent: 24px;
+  text-indent: 20px;
 }
 
 h2 {
+  display: flex;
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   font-size: 40px;
 }
 
