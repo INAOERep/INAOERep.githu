@@ -460,6 +460,8 @@ footer{
 
 .fter{
   font-size: 14px;
-  margin:0 2% 3% 2%;
+  color: white;
+  display: flex;
+  justify-content: center;
   text-align: justify;
 }
