@@ -479,6 +479,9 @@ label {
       margin-bottom: 6%;
       width: 95%;
     }
+    .video{
+      width: 100%;
+    }
 }
 
 /* Pie de página */
