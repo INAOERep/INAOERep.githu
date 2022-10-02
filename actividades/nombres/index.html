@@ -11,13 +11,13 @@
   <link rel="stylesheet" href="css/diseño.css">
 </head>
 
-<body onload="cambiar()">
-
+<body>
   <header>
     <div class="parte_superior">
       <div class="titulo">Asteroides Cercanos a la Tierra (NEAs)
       </div>
-      <img src="img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
+      <img src="../../img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
+      <img src="../../img/LOGO.png" alt="INAOE" class="logoimg">
     </div>
   </header>
 
@@ -79,6 +79,8 @@
 
     </div>
 
+  <div class="cBrillo">
+
     <div class="texto">
       <font color="white">
         <div class="capa"><a name="indice1"></a></div>
@@ -118,7 +120,7 @@
         <center>
           <img src="img/periodos.png" width="50%">
         </center>
-
+        
         <div class="capa"><a name="indice2"></a></div>
         <h2>Nombrando asteroides<br><br></h2>
         <p>
@@ -136,24 +138,24 @@
             <input type="button" value="Comprobar" onclick="comprobar()">
             <br><br>
           </div>
-
+          
         </center>
         <br><br>
-
+        
         <script>
           var respuesta_correcta;
-
+          
           var nombres = ["Fue el primer asteroide en ser descubierto entre el 16 y el 29 de febrero de 1950.",
-                         "Fue el asteroide número 19 en ser descubierto entre el 1 y el 15 de abril de 1996.", 
-                         "Fue el tercer asteroide en ser descubierto entre el 1 y el 15 de agosto de 1956. ", 
-                         "Fue el asteroide número 114 en ser descubierto entre el 16 y el 31 de junio de 2004.",
-                         "Fue el tercer asteroide en ser descubierto entre el 1 y el 15 de diciembre de 1941, aunque fue redescubierto posteriormente en 1962."];
+          "Fue el asteroide número 19 en ser descubierto entre el 1 y el 15 de abril de 1996.", 
+          "Fue el tercer asteroide en ser descubierto entre el 1 y el 15 de agosto de 1956. ", 
+          "Fue el asteroide número 114 en ser descubierto entre el 16 y el 31 de junio de 2004.",
+          "Fue el tercer asteroide en ser descubierto entre el 1 y el 15 de diciembre de 1941, aunque fue redescubierto posteriormente en 1962."];
           var respuestas = [["1950 DA", "1950 AD", "1950 CA", "DA 1950"], 
-                            ["1996 GT", "GT 1996", "1996 GU", "1996 HU"], 
-                            ["1956 PC", "PD 1956", "56 PC", "1956 C"],
-                            ["2004 MN4", "2004 MN", "M4N 2004", "04 MN4"],
-                            ["1941 XC, 1962 NB", "1941 XC", "1941-1962 XC", "1962 XC"]];
-
+          ["1996 GT", "GT 1996", "1996 GU", "1996 HU"], 
+          ["1956 PC", "PD 1956", "56 PC", "1956 C"],
+          ["2004 MN4", "2004 MN", "M4N 2004", "04 MN4"],
+          ["1941 XC, 1962 NB", "1941 XC", "1941-1962 XC", "1962 XC"]];
+          
           function cambiar() {
             var al = Math.floor(Math.random() * nombres.length);
             var respuestas_posibles = respuestas[al];
@@ -171,14 +173,14 @@
             }
 
             document.getElementById("ia").textContent = nombres[al];
-
+            
             var txt_respuestas = "";
             for (i in respuestas_reordenadas) {
               txt_respuestas += '<input type="radio" name="cuestionario" value="' + i + '"><label>' + respuestas_reordenadas[i] + '</label><br>';
             }
             document.getElementById("respuestas").innerHTML = txt_respuestas;
           }
-
+          
           function comprobar() {
             var respuesta = $("input[type=radio]:checked").val()
             if (respuesta == respuesta_correcta) {
@@ -188,20 +190,21 @@
             }
           }
 
-        </script>
+          </script>
 
-        <p>
+<p>
           Si desea saber más acerca de estos asteroides, puede buscarlos en la siguiente base de datos, donde podrá
           encontrar otros nombres para
           el mismo asteroide: <a href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/">Base de datos JPL
             NASA</a>.<br><br>
-        </p>
-
-      </font>
+          </p>
+          
+        </font>
+      </div>
     </div>
   </div>
-  </div>
-
+</div>
+  
   <center>
     <div id="header_wrap2" class="outer">
       <p style="background:black;
