@@ -160,9 +160,14 @@ header{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   }
 
+  
   /*Imagenes*/
   .imagen{
-    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 2%;
   }
 
   /*ELEMENTOS RESPONSIVOS*/
@@ -468,6 +473,10 @@ label {
       padding-right: 0;
     }
     .imagen{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 6%;
       width: 95%;
     }
 }
