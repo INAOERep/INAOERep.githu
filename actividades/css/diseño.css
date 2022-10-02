@@ -7,7 +7,10 @@
   text-decoration: none;
 }
 body{
-  background-color: #000000;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 header{
   width: 100%;
@@ -28,17 +31,19 @@ header{
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 1200px;
+  max-width: 1350px;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0px;
 }
 /* Logo INAOE */
 .logoimg {
+  margin: 0px 8px 0px 0px;
   display: flex;
-  height: 110px;
   align-items: center;
+  height: 110px;
 }
 
 /* Menú principal */
@@ -91,7 +96,7 @@ header{
     align-items: center;
     padding: 12px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     transition: all 300ms ease;
   }
   nav > ul > li > a:hover{
@@ -155,6 +160,15 @@ header{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   }
 
+  /*Imagenes*/
+  .imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 2%;
+  }
+
   /*ELEMENTOS RESPONSIVOS*/
   .icon__menu{
     font-size: 26px;
@@ -184,9 +198,9 @@ header{
 .indice {
   background: #54ABFA;
   margin: 50px 10px 0 10px;
-  width: 35%;
-  height: 100%;
-  padding: 20px 60px 20px 20px;
+  width: 65%;
+  height: 200px;
+  padding: 20px 35px 20px 20px;
   border-radius: 3px;
   position: sticky;
   top: 80px;
@@ -214,14 +228,25 @@ a.contenido {
 }
 
 /* Texto general */
-.texto {
+.texto { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
-  padding: 0 20px 0 20px;
+  padding: 5% 3% 4% 3%;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
 }
 
+.cBrillo{
+  padding-left: 0;
+  padding-right: 23%;
+}
+.Brillo{
+  padding-left: 17%;
+  padding-right: 23%;
+}
 img {
   border-image:white;
   border-width: 1px;
@@ -236,14 +261,17 @@ img {
 }
 
 p {
-  padding: 0 20px 0 10px;
+  color: white;
+  margin:0 2% 3% 2%;
   text-align: justify;
   text-indent: 20px;
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 0 20px 0 10px;
+  margin-bottom: 3%;
   font-size: 40px;
 }
 
@@ -253,7 +281,10 @@ h3 {
 }
 
 h4 {
-  padding: 0 20px 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
   font-size: 20px;
 }
 
@@ -362,15 +393,16 @@ label {
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
     .parte_superior{
-        padding: 10px;
+      max-width: 97%;
     }
     .titulo{
         align-items: center;
         font-size:22px
     }
     .logoimg{
-      display: flex;
+      margin: 0px 0px;
       height: 60px;
+      display: flex;
       align-items: center;
     }
     nav > ul{
@@ -428,20 +460,43 @@ label {
       display:none;
     }
       
+    /* Texto*/
+    h2{
+      font-size: 35px;
     }
 
-@media screen and (max-width: 400px){
-    .modal-content {
-      margin: auto;
-      display: block;
-      width: 80%;
-      max-width: 700px;
+    .texto{
+      width: 95%; 
+      padding: 10% 4% 6% 4%;
+    }
+    .Brillo, .cBRillo{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .imagen{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 6%;
+      width: 95%;
     }
 }
 
 /* Pie de página */
-#header_wrap2 {
-  justify-items: center;
-  align-items: flex-end;
-  margin: 0px;
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  background-color: rgb(5, 5, 5);
+  padding: 1em 0;
+  margin-top: auto;
+}
+.fter{
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
