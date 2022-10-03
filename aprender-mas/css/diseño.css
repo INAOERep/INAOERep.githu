@@ -382,19 +382,19 @@ label {
 
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
-    .parte_superior{
-        max-width: 97%;
-    }
-    .titulo{
-        align-items: center;
-        font-size:22px
-    }
-    .logoimg{
-      margin: 0px 0px;
-      height: 60px;
-      display: flex;
+  .parte_superior{
+    max-width: 870px;
+  }
+  .titulo{
       align-items: center;
-    }
+      font-size:22px
+  }
+  .logoimg{
+    margin: 0px 0px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
     nav > ul{
       flex-direction: column;
       background-color: #023877;
