@@ -1,6 +1,6 @@
 var modal1 = document.getElementById("myModal1");
 
-const markers = document.querySelectorAll("#map-svg image");
+const markers = document.querySelectorAll("image");
 var modalImg1 = document.getElementById("img1");
 
 markers.forEach(marker => marker.addEventListener("click",setModal));
