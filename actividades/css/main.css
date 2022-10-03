@@ -185,7 +185,7 @@ header{
   visibility: visible;
 }
 
-.indice1, .indice2, .indice3, .indice4 {
+.indice1 .indice2 .indice3 .indice4 {
   background: #54ABFA;
   margin: 50px 10px 0 10px;
   width: 65%;
