@@ -76,14 +76,14 @@ header{
 
   /*ICONO HOME*/
   nav > ul > li:first-child > a{
-    background-image: url(../img/home.png);
+    background-image: url(../../../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 40px;
   }
   nav > ul > li:first-child:hover > a{
-    background-image: url(../img/home.png);
+    background-image: url(../../../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
