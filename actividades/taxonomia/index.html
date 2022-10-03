@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/main.css">
 </head>
 
-<body>
+<body onload="cambiar()">
 <header>
   <div class="parte_superior">
     <div class="titulo">Asteroides Cercanos a la Tierra (NEAs)
@@ -96,7 +96,7 @@
           modelos del cosmos que buscaban explicar el Universo; sin embargo, dichos modelos eran bastante confusos y muy
           diferentes al modelo actual. Todo esto cambió cuando un hombre brillante decidió utilizar un aparato nuevo
           para observar el universo: telescopio.
-          <center><img src="00001.jpg" width="280px" alt="180px"></center>
+          <center><img class="imagen" src="00001.jpg"></center>
         </p>
         <p>
           Desde que Galileo Galilei a principios del siglo XVII utilizó el telescopio para obsevar el Universo, se
@@ -108,7 +108,7 @@
           más sofisticados abrieron la posibilidad de estudiar el Universo con mayor detalle, a la vez que revelaban
           objetos que a simple vista no se pueden
           observar a ojo desnudo. Tal es el caso de los asteroides.
-          <center><img src="00002.jpg" width="286px" alt="176px"></center>
+          <center><img class="imagen" src="00002.jpg"></center>
         </p>
         <p>
           Los asteroides son cuerpos celestes que orbitan alrededor del Sol y que no poseen atmósfera detectable,
@@ -167,7 +167,7 @@
         <p>
         Regresando a lo anterior, precisamente, esta información que llega a los telescopios y que es procesada por equipos computarizados es la que nos
         atañe en esta sección, especialmente, los espectros de absorción. Un ejemplo de éste es el siguiente.
-        <center><img src="00003.png" width="525px" alt="406px"></center>
+        <center><img class="imagen" src="00003.png"></center>
       </p>
       <p>
         El estudio de espectros como este se centra en estudiar las características del espectro procesado, como la inclinación de la pendiente (normalmente
@@ -310,7 +310,7 @@
             <div id="respuestas"></div>
             <input type="button" value="Comprobar" onclick="comprobar()">
             <p></p>
-            <img id="ia" src="" width="500" height="400">
+            <img class="imagen" id="ia" src="">
             <div id="myModal" class="modal">
               <span class="close">&times;</span>
               <img class="modal-content" id="img">
