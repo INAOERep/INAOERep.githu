@@ -13,7 +13,7 @@ body{
 textarea {
       resize: none;
       border: none;
-      color: white;
+      color: black;
       padding-left: 35px;
       width: 280px;
 }
