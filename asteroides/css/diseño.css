@@ -83,7 +83,7 @@ header{
     background-position: center center;
     padding: 20px 40px;
   }
-  
+
   nav > ul > li:first-child:hover > a{
     background-image: url(../img/home.png);
     background-size: 24px;
@@ -394,7 +394,7 @@ label {
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
     .parte_superior{
-      max-width: 97%;
+      max-width: 98%;
     }
     .titulo{
         align-items: center;
