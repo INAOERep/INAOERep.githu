@@ -42,8 +42,8 @@ header{
 .logoimg {
   margin: 0px 8px 0px 0px;
   display: flex;
-  align-items: center;
   height: 110px;
+  align-items: center;
 }
 
 /* Menú principal */

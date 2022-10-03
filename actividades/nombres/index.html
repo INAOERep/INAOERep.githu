@@ -1,5 +1,4 @@
 <html>
-
 <head>
   <title>Actividad: Nombrando asteroides </title>
   <meta charset="UTF-8">
@@ -68,7 +67,6 @@
     </div>
   </div>
 
-
   <div class="container2">
     <div class="indice">
       <h1 class="indice_titulo"><b>Contenido</b></h1>
@@ -80,30 +78,28 @@
     </div>
 
   <div class="cBrillo">
-
     <div class="texto">
       <font color="white">
-        <div class="capa"><a name="indice1"></a></div>
-        <h2>¿Cómo se nombran a los asteroides?<br><br></h2>
+        <h2>¿Cómo se nombran a los asteroides?</h2>
         <p>
           Sí has buscado un poco o te interesa el tema de los asteroides, seguramente has visto que los asteroides
           tienen nombres particulares, e incluso algunos tienen más de un solo nombre. Te has preguntado, ¿cómo es
           que se nombra un asteroide? Bueno, hay muchas maneras para hacerlo: por razones históricas, culturales,
           geográficas, etc. Ahora debes pensar que esto es muy complicado, ¿cómo podré aprender todos los nombres
-          o todas las formas en que puedo nombrar a un asteroide?<br><br>
+          o todas las formas en que puedo nombrar a un asteroide?
         </p>
         <p>
           No hay necesidad de recordar todos los nombres o formas que hay de llamar o nombrar un asteroide, basta con
           conocer una, pues las bases de datos incluyen una función para identificar a un objeto dando uno de sus
           nombres. Es por ello que aquí aprenderás una de las formas más comunes para nombrar a un asteroide. Este
           sistema es solo provicional, es decir, el nombre que se le da a un asteroide mediante este sistema se basa
-          en su fecha de descubrimiento, pero luego puede recibir otro nombre más.<br><br>
+          en su fecha de descubrimiento, pero luego puede recibir otro nombre más.
         </p>
         <p>
           Como se dijo, el sistema se basa en la fecha en que es descubierto el objeto. Así, este sistema usa cuatro
           números, dos letras y un quinto número opcional al final. Los números indican el año de descubrimiento, la
           primera letra denota el periodo de la mitad del mes en que se descubrió el objeto, y la segunda letra y un
-          número extra opcional para el orden del descubrimiento dentro de ese periodo.<br><br>
+          número extra opcional para el orden del descubrimiento dentro de ese periodo.
         </p>
         <p>
           Parece algo confuso, ¿no? Pues veamos un ejemplo para que quede más claro el uso de este sistema. El asteroide
@@ -115,108 +111,46 @@
           la
           letra F, la sexta letra del alfabeto inglés; de esta forma, se tiene que el objeto fue el número
           (127x25)+6=3181
-          en ser descubierto en ese periodo.<br><br>
+          en ser descubierto en ese periodo.
         </p>
         <center>
-          <img src="img/periodos.png" width="50%">
+          <img src="img/periodos.png" class="imagen">
         </center>
-        
-        <div class="capa"><a name="indice2"></a></div>
-        <h2>Nombrando asteroides<br><br></h2>
+        <h2>Nombrando asteroides</h2>
         <p>
           Ya que has aprendido una forma provicional para nombrar asteroides, intenta nombrar algunos en la siguiente
-          actividad.<br><br>
+          actividad.
         </p>
         <center>
           <div class="preguntas">
-            <p><br><br></p>
+            <p></p>
             <button type="button" onclick="cambiar()">Intentar con otro asteroide</button>
             <h3 style="color:black; padding:20px">¿Cómo se llamaría el siguiente asteroide?</h3>
-            <p><br><br></p>
-            <span id="ia" style="color: black; font-size: 20px; border-color: black;"></span><br><br>
-            <div id="respuestas"></div><br>
-            <input type="button" value="Comprobar" onclick="comprobar()">
-            <br><br>
+            <p></p>
+            <span id="ia" style="color: black; font-size: 20px; border-color: black;"></span>
+            <div id="respuestas"></div>
+            <input type="button" value="Comprobar" onclick="comprobar()">  
           </div>
-          
         </center>
-        <br><br>
-        
-        <script>
-          var respuesta_correcta;
-          
-          var nombres = ["Fue el primer asteroide en ser descubierto entre el 16 y el 29 de febrero de 1950.",
-          "Fue el asteroide número 19 en ser descubierto entre el 1 y el 15 de abril de 1996.", 
-          "Fue el tercer asteroide en ser descubierto entre el 1 y el 15 de agosto de 1956. ", 
-          "Fue el asteroide número 114 en ser descubierto entre el 16 y el 31 de junio de 2004.",
-          "Fue el tercer asteroide en ser descubierto entre el 1 y el 15 de diciembre de 1941, aunque fue redescubierto posteriormente en 1962."];
-          var respuestas = [["1950 DA", "1950 AD", "1950 CA", "DA 1950"], 
-          ["1996 GT", "GT 1996", "1996 GU", "1996 HU"], 
-          ["1956 PC", "PD 1956", "56 PC", "1956 C"],
-          ["2004 MN4", "2004 MN", "M4N 2004", "04 MN4"],
-          ["1941 XC, 1962 NB", "1941 XC", "1941-1962 XC", "1962 XC"]];
-          
-          function cambiar() {
-            var al = Math.floor(Math.random() * nombres.length);
-            var respuestas_posibles = respuestas[al];
-            var tengo_la_respuesta = false;
-            var posiciones = [0, 1, 2, 3];
-            var respuestas_reordenadas = [];
-            for (i in respuestas_posibles) {
-              var posicion_al = Math.floor(Math.random() * posiciones.length);
-              if (posicion_al == 0 && tengo_la_respuesta == false) {
-                respuesta_correcta = i;
-                tengo_la_respuesta = true;
-              }
-              respuestas_reordenadas[i] = respuestas_posibles[posiciones[posicion_al]];
-              posiciones.splice(posicion_al, 1);
-            }
 
-            document.getElementById("ia").textContent = nombres[al];
-            
-            var txt_respuestas = "";
-            for (i in respuestas_reordenadas) {
-              txt_respuestas += '<input type="radio" name="cuestionario" value="' + i + '"><label>' + respuestas_reordenadas[i] + '</label><br>';
-            }
-            document.getElementById("respuestas").innerHTML = txt_respuestas;
-          }
-          
-          function comprobar() {
-            var respuesta = $("input[type=radio]:checked").val()
-            if (respuesta == respuesta_correcta) {
-              alert('Respuesta correcta.');
-            } else {
-              alert("Inténtalo de nuevo");
-            }
-          }
-
-          </script>
-
-<p>
+          <p>
           Si desea saber más acerca de estos asteroides, puede buscarlos en la siguiente base de datos, donde podrá
           encontrar otros nombres para
           el mismo asteroide: <a href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/">Base de datos JPL
-            NASA</a>.<br><br>
+            NASA</a>.
           </p>
-          
         </font>
       </div>
     </div>
   </div>
 </div>
   
-  <center>
-    <div id="header_wrap2" class="outer">
-      <p style="background:black;
-        color:white; 
-        padding:25px; 
-        text-align:center; 
-        font-size:13px">2022 - Página diseñada y desarrollada por el grupo de trabajo BUAP-INAOE del programa:
-        Asteroides Cercanos a la Tierra (NEAs)
-      </p>
-    </div>
-  </center>
-
+<footer> 
+  <div class="fter">
+    2022 - Página diseñada y desarrollada por el grupo de trabajo BUAP-INAOE del programa:
+    Asteroides Cercanos a la Tierra (NEAs)
+  </div>
+</footer>
+<script src="js/preguntas.js"></script>
 </body>
-
 </html>
