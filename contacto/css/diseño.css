@@ -7,21 +7,43 @@
   text-decoration: none;
 }
 body{
-  background-color: #000000;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
-
-textarea {
-      resize: none;
-      border: none;
-      color: black;
-      padding-left: 35px;
-      width: 280px;
+header{
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
 }
-
-.titulo1{
-  width: 100% !important;
+/* Título de la página */
+.titulo {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: #066DCC;
+  font-weight: bold;
+  padding: 33px;
+  font-size: 52px
 }
-
+/*HEADER SUPERIOR*/
+.parte_superior{
+  max-width: 1350px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+/* Logo INAOE */
+.logoimg {
+  margin: 0px 8px 0px 0px;
+  display: flex;
+  height: 110px;
+  align-items: center;
+}
 
 /* Menú principal */
   /*BARRA MENU*/
@@ -210,28 +232,29 @@ a.contenido {
   width:80%;
 }
 
+.Brillo{
+  padding-left: 17%;
+  padding-right: 23%;
+}
 img {
   border-image:white;
   border-width: 1px;
   border-style:solid;
 } 
 
-.capa {
-  background: #131313;
-  height: 55px;
-  position: relative;
-  padding: 0;
-}
 
 p {
-  padding: 0 20px 0 10px;
+  color: white;
+  margin:0 2% 3% 2%;
   text-align: justify;
   text-indent: 20px;
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 0 20px 0 10px;
+  margin-bottom: 7%;
   font-size: 40px;
 }
 
@@ -241,10 +264,12 @@ h3 {
 }
 
 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 20px 0 10px;
   font-size: 20px;
 }
-
 /* Tablas */
   table {
   color: white;
@@ -409,6 +434,14 @@ label {
       font-size: 35px;
     }
 
+    .texto{
+      width: 95%; 
+      padding: 10% 4% 6% 4%;
+    }
+    .Brillo{
+      padding-left: 0;
+      padding-right: 0;
+    }
     .imagen{
       width: 90%;
     }
