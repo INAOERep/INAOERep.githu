@@ -222,6 +222,15 @@ a.contenido {
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
 }
 
+.cBrillo{
+  padding-left: 0;
+  padding-right: 23%;
+}
+.Brillo{
+  padding-left: 17%;
+  padding-right: 23%;
+}
+
 img {
   cursor: pointer;
   border-image:white;
@@ -427,6 +436,11 @@ label {
       
     .indice {
       display:none;
+    }
+  
+    .Brillo, .cBRillo{
+      padding-left: 0;
+      padding-right: 0;
     }
       
     }
