@@ -97,7 +97,7 @@ header{
     align-items: center;
     padding: 12px;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     transition: all 300ms ease;
   }
   nav > ul > li > a:hover{
@@ -394,7 +394,7 @@ label {
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
     .parte_superior{
-      max-width: 98%;
+      max-width: 870px;
     }
     .titulo{
         align-items: center;
