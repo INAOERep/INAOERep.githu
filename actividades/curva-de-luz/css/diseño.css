@@ -218,12 +218,23 @@ a.contenido {
 }
 
 /* Texto general */
-.texto {
+.texto { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
-  padding: 0 20px 0 20px;
+  padding: 5% 3% 4% 3%;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+}
+.cBrillo{
+  padding-left: 0;
+  padding-right: 23%;
+}
+.Brillo{
+  padding-left: 17%;
+  padding-right: 23%;
 }
 
 img {
