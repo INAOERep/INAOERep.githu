@@ -7,7 +7,10 @@
   text-decoration: none;
 }
 body{
-  background-color: #000000;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 header{
   width: 100%;
@@ -18,7 +21,7 @@ header{
 
 /* Título de la página */
 .titulo {
-  display: flex;
+  display:flex;
   justify-content: center;
   background: black;
   color: #066DCC;
@@ -28,10 +31,11 @@ header{
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 1200px;
+  max-width: 1350px;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0px;
 }
 /* Logo INAOE */
@@ -72,14 +76,14 @@ header{
 
   /*ICONO HOME*/
   nav > ul > li:first-child > a{
-    background-image: url(../img/home.png);
+    background-image: url(../../../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 40px;
   }
   nav > ul > li:first-child:hover > a{
-    background-image: url(../img/home.png);
+    background-image: url(../../../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -91,7 +95,7 @@ header{
     align-items: center;
     padding: 12px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     transition: all 300ms ease;
   }
   nav > ul > li > a:hover{
@@ -184,9 +188,9 @@ header{
 .indice {
   background: #54ABFA;
   margin: 50px 10px 0 10px;
-  width: 35%;
-  height: 100%;
-  padding: 20px 60px 20px 20px;
+  width: 65%;
+  height: 4.7%;
+  padding: 20px 35px 20px 20px;
   border-radius: 3px;
   position: sticky;
   top: 80px;
@@ -214,12 +218,23 @@ a.contenido {
 }
 
 /* Texto general */
-.texto {
+.texto { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
-  padding: 0 20px 0 20px;
+  padding: 5% 3% 4% 3%;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+}
+.cBrillo{
+  padding-left: 0;
+  padding-right: 23%;
+}
+.Brillo{
+  padding-left: 17%;
+  padding-right: 23%;
 }
 
 img {
@@ -236,14 +251,17 @@ img {
 }
 
 p {
-  padding: 0 20px 0 10px;
+  color: white;
+  margin:0 2% 3% 2%;
   text-align: justify;
   text-indent: 20px;
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 0 20px 0 10px;
+  margin-bottom: 7%;
   font-size: 40px;
 }
 
@@ -253,6 +271,9 @@ h3 {
 }
 
 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 20px 0 10px;
   font-size: 20px;
 }
@@ -362,7 +383,7 @@ label {
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
     .parte_superior{
-        padding: 10px;
+        max-width: 98%;
     }
     .titulo{
         align-items: center;
@@ -427,7 +448,27 @@ label {
     .indice {
       display:none;
     }
-      
+         /* Texto*/
+    h2{
+      font-size: 35px;
+    }
+    .texto{
+      width: 95%; 
+      padding: 10% 4% 6% 4%;
+    }
+    
+    .Brillo, .cBRillo{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .imagen{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 6%;
+      width: 95%;
+    }
     }
 
 @media screen and (max-width: 400px){
@@ -440,8 +481,19 @@ label {
 }
 
 /* Pie de página */
-#header_wrap2 {
-  justify-items: center;
-  align-items: flex-end;
-  margin: 0px;
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  background-color: rgb(5, 5, 5);
+  padding: 1em 0;
+  margin-top: auto;
+}
+.fter{
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
