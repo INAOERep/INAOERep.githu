@@ -95,7 +95,7 @@ header{
     align-items: center;
     padding: 12px;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     transition: all 300ms ease;
   }
   nav > ul > li > a:hover{
