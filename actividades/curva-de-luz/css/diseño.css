@@ -7,7 +7,10 @@
   text-decoration: none;
 }
 body{
-  background-color: #000000;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 header{
   width: 100%;
@@ -18,7 +21,7 @@ header{
 
 /* Título de la página */
 .titulo {
-  display: flex;
+  display:flex;
   justify-content: center;
   background: black;
   color: #066DCC;
@@ -28,10 +31,11 @@ header{
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 1200px;
+  max-width: 1350px;
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0px;
 }
 /* Logo INAOE */
@@ -236,14 +240,17 @@ img {
 }
 
 p {
-  padding: 0 20px 0 10px;
+  color: white;
+  margin:0 2% 3% 2%;
   text-align: justify;
   text-indent: 20px;
 }
 
 h2 {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  padding: 0 20px 0 10px;
+  margin-bottom: 7%;
   font-size: 40px;
 }
 
@@ -253,6 +260,9 @@ h3 {
 }
 
 h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 0 20px 0 10px;
   font-size: 20px;
 }
