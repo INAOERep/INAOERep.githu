@@ -7,10 +7,7 @@
   text-decoration: none;
 }
 body{
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
+  background-color: #000000;
 }
 header{
   width: 100%;
@@ -21,7 +18,7 @@ header{
 
 /* Título de la página */
 .titulo {
-  display:flex;
+  display: flex;
   justify-content: center;
   background: black;
   color: #066DCC;
@@ -31,11 +28,10 @@ header{
 }
 /*HEADER SUPERIOR*/
 .parte_superior{
-  max-width: 1350px;
+  max-width: 1200px;
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 0px;
 }
 /* Logo INAOE */
@@ -76,14 +72,14 @@ header{
 
   /*ICONO HOME*/
   nav > ul > li:first-child > a{
-    background-image: url(../../../img/home.png);
+    background-image: url(../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 40px;
   }
   nav > ul > li:first-child:hover > a{
-    background-image: url(../../../img/home.png);
+    background-image: url(../img/home.png);
     background-size: 24px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -95,7 +91,7 @@ header{
     align-items: center;
     padding: 12px;
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     transition: all 300ms ease;
   }
   nav > ul > li > a:hover{
@@ -159,15 +155,11 @@ header{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   }
 
-   /*Imagenes*/
-   .imagen{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin-bottom: 2%;
+  /*Imagenes*/
+  .imagen{
+    width: 50%;
   }
-  
+
   /*ELEMENTOS RESPONSIVOS*/
   .icon__menu{
     font-size: 26px;
@@ -194,33 +186,18 @@ header{
   visibility: visible;
 }
 
-.indice1, .indice2, .indice3, .indice4 {
+.indice {
   background: #54ABFA;
   margin: 50px 10px 0 10px;
-  width: 65%;
-  padding: 20px 35px 20px 20px;
+  width: 35%;
+  height: 100%;
+  padding: 20px 60px 20px 20px;
   border-radius: 3px;
   position: sticky;
   top: 80px;
   z-index: 2;
   display: block;
   box-shadow: 5px 5px 4px #162635, -5px -5px 4px #6b8196;
-}
-
-.indice1 {
-  height:4.7%;
-}
-
-.indice2 {
-  height: 9%;
-}
-
-.indice3 {
-  height: 1.6%;
-}
-
-.indice4 {
-  height: 11.5%
 }
 
 a {
@@ -243,22 +220,11 @@ a.contenido {
 
 /* Texto general */
 .texto { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: #131313;
   margin: 20px 20px 20px 10px;
   border-radius: 1rem;
-  padding: 5% 3% 4% 3%;
+  padding: 0 20px 0 20px;
   box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
-}
-.cBrillo{
-  padding-left: 0;
-  padding-right: 23%;
-}
-.Brillo{
-  padding-left: 17%;
-  padding-right: 23%;
 }
 
 img {
@@ -275,17 +241,14 @@ img {
 }
 
 p {
-  color: white;
-  margin:0 2% 3% 2%;
+  padding: 0 20px 0 10px;
   text-align: justify;
   text-indent: 20px;
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
   text-align: center;
-  margin-bottom: 7%;
+  padding: 0 20px 0 10px;
   font-size: 40px;
 }
 
@@ -295,11 +258,12 @@ h3 {
 }
 
 h4 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0 20px 0 10px;
   font-size: 20px;
+}
+
+.videos_pequeños {
+  display:none;
 }
 
 /* Tablas */
@@ -406,26 +370,25 @@ label {
 
 /*Ajustes tamaño de pantalla*/   
 @media screen and (max-width: 900px){
-  .parte_superior{
-    max-width: 870px;
-  }
-  .titulo{
+    .parte_superior{
+        padding: 10px;
+    }
+    .titulo{
+        align-items: center;
+        font-size:22px
+    }
+    .logoimg{
+      display: flex;
+      height: 60px;
       align-items: center;
-      font-size:22px
-  }
-  .logoimg{
-    margin: 0px 0px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-  }
+    }
     nav > ul{
       flex-direction: column;
       background-color: #023877;
       position: sticky;
       left: 0;
       top: 158px;
-      width: 30%;
+      width: 40%;
       height: 0px;
       transition: all 300ms ease;
       z-index: 100;
@@ -470,31 +433,27 @@ label {
       width: 100%;
     }
       
-    .indice1, .indice2, .indice3, .indice4 {
+    .indice {
       display:none;
     }
-         /* Texto*/
+      
+    /* Texto*/
     h2{
       font-size: 35px;
     }
-    .texto{
-      width: 95%; 
-      padding: 10% 4% 6% 4%;
-    }
-    
-    .Brillo, .cBRillo{
-      padding-left: 0;
-      padding-right: 0;
-    }
 
     .imagen{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 6%;
-      width: 95%;
+      width: 90%;
     }
+  
+    .videos_grandes {
+      display:none;
     }
+  
+    .videos_pequeños {
+      display:block;
+    }
+}
 
 @media screen and (max-width: 400px){
     .modal-content {
@@ -503,26 +462,11 @@ label {
       width: 80%;
       max-width: 700px;
     }
-  
-    .indice1, .indice2, .indice3, .indice4 {
-      display:none;
-    }
 }
 
 /* Pie de página */
-footer{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 13px;
-  background-color: rgb(5, 5, 5);
-  padding: 1em 0;
-  margin-top: auto;
-}
-.fter{
-  font-size: 14px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+#header_wrap2 {
+  justify-items: center;
+  align-items: flex-end;
+  margin: 0px;
 }
