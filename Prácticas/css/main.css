@@ -194,7 +194,7 @@ header{
   visibility: visible;
 }
 
-.indice1, .indice2, .indice3, .indice4 {
+.indice {
   background: #54ABFA;
   margin: 50px 10px 0 10px;
   width: 65%;
@@ -205,22 +205,6 @@ header{
   z-index: 2;
   display: block;
   box-shadow: 5px 5px 4px #162635, -5px -5px 4px #6b8196;
-}
-
-.indice1 {
-  height:4.7%;
-}
-
-.indice2 {
-  height: 9%;
-}
-
-.indice3 {
-  height: 1.6%;
-}
-
-.indice4 {
-  height: 11.5%
 }
 
 a {
@@ -470,7 +454,7 @@ label {
       width: 100%;
     }
       
-    .indice1, .indice2, .indice3, .indice4 {
+    .indice {
       display:none;
     }
          /* Texto*/
@@ -504,7 +488,7 @@ label {
       max-width: 700px;
     }
   
-    .indice1, .indice2, .indice3, .indice4 {
+    .indice {
       display:none;
     }
 }
