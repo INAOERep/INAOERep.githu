@@ -127,7 +127,7 @@ li {
   overflow-x: hidden;
 }
 .carrusel .grande {
-  width: 500%;
+  width: 600%;
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
