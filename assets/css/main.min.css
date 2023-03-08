@@ -137,7 +137,7 @@ li {
   transform: translateX(0%);
 }
 .carrusel .cuadro {
-  width: calc(100% / 5);
+  width: calc(100% / 6);
   min-height: 10vh;
   @include neo(1, 1em, 1em);
   cursor: pointer;
