@@ -36,22 +36,19 @@
   
   <div class="carrusel">
     <div class="grande">
-      <a class="cuadro" href="https://sites.google.com/viep.com.mx/eclipses" target="_blank"><img src="img/curso-eclipses1.jpg" class="img"></a>
-      <a class="cuadro" href="https://www.mdscc.nasa.gov/index.php/2023/01/26/el-equipo-lucy-de-la-nasa-anuncia-un-nuevo-objetivo-de-asteroide/" target="_blank"><img src="img/Lucy.jpg" class="img"></a
-      <a class="cuadro" href="https://www.nationalgeographic.com.es/ciencia/nasa-presenta-cometa-nishimura-nuevo-descubrimiento-que-podriamos-ver-tierra_20619#google_vignette" target="_blank"><img src="img/N1.jpg" class="img"></a>
-      <a class="cuadro" href="https://www.bbc.com/mundo/articles/c3gzwlq1y33o" target="_blank"><img src="img/L.jpg" class="img"></a>
-      <a class="cuadro" href="https://www.space.com/33776-osiris-rex.html?fbclid=IwAR0x3Ug5a01PtuNzIBnTpVMcsiIQ8oD2QyPlcJ6iqECljTLqpNo6cJ9mc3c" target="_blank"><img src="img/osiris.png" class="img"></a>
+      <a class="cuadro" href="https://www.youtube.com/watch?v=4RA8Tfa6Sck" target="_blank"><img src="img/impacto dart.jfif" style="border-image: white;" class="img"></a>
       <a class="cuadro" href="https://cneos.jpl.nasa.gov/ca/" target="_blank"><img src="img/acercamientos.png" class="img"></a>
+      <a class="cuadro" href="https://www.ngenespanol.com/el-espacio/que-se-sabe-del-asteroide-ryugu-y-el-origen-de-la-vida/" target="_blank"><img src="img/ryugu.png" class="img"></a>
+      <a class="cuadro" href="https://dart.jhuapl.edu/" target="_blank"><img src="img/asteroides1.jpg" class="img"></a>
+      <a class="cuadro" href="" target="_blank"><img src="img/asteroides2.jpg" class="img"></a>
     </div>
     <ul class="puntos">
       <li class="punto activo"></li>
       <li class="punto"></li>
       <li class="punto"></li>
       <li class="punto"></li>
-      <li class="punto"></li>   
       <li class="punto"></li>
-      <li class="punto"></li>
-     </ul>
+    </ul>
   </div>
   
   <script>
@@ -61,7 +58,7 @@
     punto.forEach( ( cadaPunto , i)=> {
       punto[i].addEventListener('click',()=>{
         let posicion = i
-        let operacion =posicion * -14.26
+        let operacion =posicion * -20
 
         grande.style.transform = `translateX(${operacion }%)`
 
