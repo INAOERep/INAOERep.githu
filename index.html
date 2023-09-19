@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
+  <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
+
+  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+
+  {% include landing-page.html %}
+
+  <div class="carrusel">
+    <div class="grande">
+      <a class="cuadro" href="https://sites.google.com/viep.com.mx/eclipses" target="_blank"><img src="img/curso-eclipses1.jpg" class="img"></a>
+      <a class="cuadro" href="https://www.mdscc.nasa.gov/index.php/2023/01/26/el-equipo-lucy-de-la-nasa-anuncia-un-nuevo-objetivo-de-asteroide/" target="_blank"><img src="img/Lucy.jpg" class="img"></a
+      <a class="cuadro" href="https://www.nationalgeographic.com.es/ciencia/nasa-presenta-cometa-nishimura-nuevo-descubrimiento-que-podriamos-ver-tierra_20619#google_vignette" target="_blank"><img src="img/N1.jpg" class="img"></a>
+      <a class="cuadro" href="https://www.bbc.com/mundo/articles/c3gzwlq1y33o" target="_blank"><img src="img/L.jpg" class="img"></a>
+      <a class="cuadro" href="https://www.space.com/33776-osiris-rex.html?fbclid=IwAR0x3Ug5a01PtuNzIBnTpVMcsiIQ8oD2QyPlcJ6iqECljTLqpNo6cJ9mc3c" target="_blank"><img src="img/osiris.png" class="img"></a>
+      <a class="cuadro" href="https://cneos.jpl.nasa.gov/ca/" target="_blank"><img src="img/acercamientos.png" class="img"></a>
+    </div>
+    <ul class="puntos">
+      <li class="punto activo"></li>
+      <li class="punto"></li>
+      <li class="punto"></li>
+      <li class="punto"></li>
+      <li class="punto"></li>   
+      <li class="punto"></li>    
+     </ul>
+  </div>
+
+  <script>
+    const grande =document.querySelector('.grande')
+    const punto =document.querySelectorAll('.punto')
+
+    punto.forEach( ( cadaPunto , i)=> {
+      punto[i].addEventListener('click',()=>{
+        let posicion = i
+        let operacion =posicion * -14.26
+
+        grande.style.transform = `translateX(${operacion }%)`
+
+        punto.forEach( ( cadaPunto , i)=>{
+          punto[i].classList.remove('activo')
+        })
+        punto[i].classList.add('activo')
+
+      })
+    })
+  </script>
+
+  <div class="layout">
+    {%if site.show_asteroides_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-asteroides.html %}
+      </section>
+    {% endif %}
+    {%if site.show_fotometria_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-fotometria.html %}
+      </section>
+    {% endif %}
+    {%if site.show_espectroscopia_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-espectroscopia.html %}
+      </section>
+    {% endif %}
+    {%if site.show_infografias_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-infografias.html %}
+      </section>
+    {% endif %}
+    {%if site.show_riesgo_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-riesgo.html %}
+      </section>
+    {% endif %}
+    {%if site.show_actividades_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-actividades.html %}
+      </section>
+    {% endif %}
+    {%if site.show_glosario_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-glosario.html %}
+      </section>
+    {% endif %}
+    {%if site.show_aprender_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-aprender.html %}
+      </section>
+    {% endif %}
+    {%if site.show_contact_card %}
+    <section class="card neumorphism-card-big">
+      {% include section-contact.html %}
+    </section>
+    {% endif %}
+    {% include footer.html %}
+  </div>
+</body>
+</html>
