@@ -1,125 +1,127 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-
-  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
-  <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
-
-  <link rel="stylesheet" href="{{ "/assets/css/main.min.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">
-
-  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "/assets/js/app.min.js" | prepend: site.baseurl }}"></script>
+  <title>Día de los Asteroides</title>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js"  ></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="../Prácticas/css/main.css">
 </head>
 
 <body>
-  <div id="preloader">
-    <div class="load">
-      <hr />
-      <hr />
-      <hr />
-      <hr />
+<header>
+  <div class="parte_superior">
+    <div class="titulo"> Día internacional  de los  Asteroides  
     </div>
+    <img src="../../img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
+    <img src="../../img/LOGO.png" alt="INAOE" class="logoimg">
+  </div>
+</header>
+
+<div class="container__menu">
+  <div class="menu">
+      <input type="checkbox" id="check__menu">
+      <label for="check__menu" id="label__check">
+          <i class="fas fa-bars icon__menu"></i>
+      </label>
+      <nav>
+          <ul>
+              <li><a href="https://asteroidesinaoe.github.io" id="selected"></a></li>
+              <li><a href="https://asteroidesinaoe.github.io/asteroides/">Asteroides</a></li>
+              <li><a href="https://asteroidesinaoe.github.io/fotometria/">Fotometría</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/fotometria/mpo-canopus/">MPO Canopus</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/fotometria/fourier/">Análisis de Fourier</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/espectroscopia/">Espectroscopía</a></li>
+              <li><a href="https://asteroidesinaoe.github.io/infografias/">Infografías</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/infografias/meteoritos-mexico/">Impactos en méxico</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/infografias/meteoritos-mundo/">Impactos en el mundo</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/infografias/acercamientos/">Acercamientos</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/infografias/biografias/">Biografías</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/riesgo_de_impacto/">Riesgo de impacto</a></li>
+              <li><a href="https://asteroidesinaoe.github.io/actividades/">Actividades</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/curva-de-luz/">Curvaz de luz</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/orbitas/">Órbitas</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/taxonomia/">Taxonomía</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/nombres/">Nombres</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/glosario/">Glosario</a></li>
+              <li><a href="https://asteroidesinaoe.github.io/aprender-mas/">Aprender más</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/aprender-mas/rayos-cosmicos/">Rayos cósmicos</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/aprender-mas/ccd/">CCD</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/contacto/">Contacto</a></li>
+          </ul>
+      </nav>
+  </div>
+</div>
+
+<div class="container2">
+  <div class="indice">
+    <h1 class="indice_titulo"><b>Contenido</b></h1>
+    <ul class="indice_lista">
+      <li><a class="contenido" href="#indice1" target="_top">Antecedentes</a></li>
+      <li><a class="contenido" href="#indice2" target="_top">Actividades</a>
+        <ul class="indice_lista">
+          </li>
+        </ul>
+      </li>
+    </ul>
   </div>
 
-  {% include landing-page.html %}
-
-  <div class="carrusel">
-    <div class="grande">
-      <a class="cuadro" href="https://sites.google.com/viep.com.mx/eclipses" target="_blank"><img src="img/curso-eclipses1.jpg" class="img"></a>
-      <a class="cuadro" href="https://www.mdscc.nasa.gov/index.php/2023/01/26/el-equipo-lucy-de-la-nasa-anuncia-un-nuevo-objetivo-de-asteroide/" target="_blank"><img src="img/Lucy.jpg" class="img"></a
-      <a class="cuadro" href="https://www.nationalgeographic.com.es/ciencia/nasa-presenta-cometa-nishimura-nuevo-descubrimiento-que-podriamos-ver-tierra_20619#google_vignette" target="_blank"><img src="img/N1.jpg" class="img"></a>
-      <a class="cuadro" href="https://www.bbc.com/mundo/articles/c3gzwlq1y33o" target="_blank"><img src="img/L.jpg" class="img"></a>
-      <a class="cuadro" href="https://www.space.com/33776-osiris-rex.html?fbclid=IwAR0x3Ug5a01PtuNzIBnTpVMcsiIQ8oD2QyPlcJ6iqECljTLqpNo6cJ9mc3c" target="_blank"><img src="img/osiris.png" class="img"></a>
-      <a class="cuadro" href="https://cneos.jpl.nasa.gov/ca/" target="_blank"><img src="img/acercamientos.png" class="img"></a>
+  <div class="cBrillo">
+    <div class="texto">
+      <font color="white">
+      <div class="capa"><a name="indice1"></a></div>
+      <h2> Historia del día de los asteroides </h2>
+      <p style="text-align: justify;">
+        
+      <p> La Tierra es impactada por unas 16 toneladas de meteoritos anualmente, sin embargo, la mayoría de estos es solamente de unos cuantos gramos de peso y usualmente pasan desapercibidos.
+       En algunas ocasiones estos objetos pueden alcanzar un tamaño considerable y causar fuertes impactos sobre la superficie terrestre, tal es el caso de aquel que impactó contra la Tierra hace 65 millones de años. 
+       Uno de los impactos recientes más importantes sucedió el 30 de junio de 1908, cerca del rio Podkamennaya en Tunguska, Siberia una fuerte explosión equivalente a 300 bombas atómicas que arrazó un area de  2 mil 150 kilometros cuadrados.  
+      <p>Es gracias a este evento que el 6 de diciembre de 2016, la Asamblea General de las Naciones Unidas aprobó la resolución A/RES/71/90, en la que se declara el 30 de junio el Día Internacional de los Asteroides.
+        Se declaró con el fin de sensibilizar al público sobre los riesgos del impacto de asteroides e informar sobre las medidas de comunicación en caso de crisis que se adoptarían en todo el mundo si hubiera una amenaza verosímil de impacto de un objeto cercano a la Tierra.
+       <center>
+      
+            <img src="../../img/dia del asteroide.jpg " class="imagen" />
+      </center>
     </div>
-    <ul class="puntos">
-      <li class="punto activo"></li>
-      <li class="punto"></li>
-      <li class="punto"></li>
-      <li class="punto"></li>
-      <li class="punto"></li>   
-      <li class="punto"></li>    
-     </ul>
+    <div class="cBrillo">
+      <div class="texto">
+        <font color="white">
+    <div class="capa"><a name="indice2"></a></div>
+    <h2>Actividades del día del asteroide <br><br></h2> 
+    <p> El pasado 30 de junio de 2023 se llevaron a cabo difrentes actividades con motivo del día del asteroide.
+      Estas actividades tuvieron lugar en la facultad de ciencias Físico Matemáticas de la Benemérita Universidad Autónoma de Puebla, el Instituto Nacional de Astrofísica, Óptica y Electrónica y la Alianza Francesa.
+      <center>
+      <img src="../../img/Poster 1.jpeg" class="imagen" />
+    </center>
+    <p> El cronograma para es día fue dividido en cuatro partes, una mesa redonda con Investigadores del INAOE, un dialogo estudiantil con alumnos de la BUAP, la inauguración de la exposición fotografica "Un viaje visual de la mano del principito" y concluyendo con observaciones de asteroides en la cámara Schmidt, Tonanzintla. 
+      <center>
+      <img src="../../img/Poster 2.jpeg  " class="imagen" />
+    </center>  
+    </font>
   </div>
-
-  <script>
-    const grande =document.querySelector('.grande')
-    const punto =document.querySelectorAll('.punto')
-
-    punto.forEach( ( cadaPunto , i)=> {
-      punto[i].addEventListener('click',()=>{
-        let posicion = i
-        let operacion =posicion * -14.26
-
-        grande.style.transform = `translateX(${operacion }%)`
-
-        punto.forEach( ( cadaPunto , i)=>{
-          punto[i].classList.remove('activo')
-        })
-        punto[i].classList.add('activo')
-
-      })
-    })
-  </script>
-
-  <div class="layout">
-    {%if site.show_asteroides_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-asteroides.html %}
-      </section>
-    {% endif %}
-    {%if site.show_fotometria_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-fotometria.html %}
-      </section>
-    {% endif %}
-    {%if site.show_espectroscopia_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-espectroscopia.html %}
-      </section>
-    {% endif %}
-    {%if site.show_infografias_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-infografias.html %}
-      </section>
-    {% endif %}
-    {%if site.show_riesgo_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-riesgo.html %}
-      </section>
-    {% endif %}
-    {%if site.show_actividades_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-actividades.html %}
-      </section>
-    {% endif %}
-    {%if site.show_glosario_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-glosario.html %}
-      </section>
-    {% endif %}
-    {%if site.show_aprender_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-aprender.html %}
-      </section>
-    {% endif %}
-    {%if site.show_contact_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-contact.html %}
-    </section>
-    {% endif %}
-    {% include footer.html %}
   </div>
+</div>
+
+
+<footer> 
+  <div class="fter">
+    2022 - Página diseñada y desarrollada por el grupo de trabajo BUAP-INAOE del programa:
+    Asteroides Cercanos a la Tierra (NEAs)
+  </div>
+</footer>
 </body>
 </html>
