@@ -45,3 +45,8 @@ function copiar8() {
   content8.select();
   document.execCommand('copy');
 }
+function copiarm() {
+  var contentm = document.getElementById('correom');
+  contentm.select();
+  document.execCommand('copy');
+}
