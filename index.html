@@ -1,24 +1,25 @@
 <html>
   <head>
     <title>Asteroides INAOE-BUAP</title>
-    <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://kit.fontawesome.com/41bcea2ae3.js"  ></script>
-      <script src="https://code.jquery.com/jquery.js"></script>
-      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
-      <link rel="stylesheet" href="Prácticas/css/main.css">
-      <title>Slider</title>
-      <link rel="stylesheet" href="style.css">
+      <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/41bcea2ae3.js"  ></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+        <link rel="stylesheet" href="Prácticas/css/main.css">
+        <title>Slider</title>
+        <link rel="stylesheet" href="style.css">
   </head>
-  <header>
-    <div class="parte_superior">
-      <div class="titulo">Asteroides INAOE-BUAP
+    <header>
+      <div class="parte_superior">
+        <div class="titulo">Asteroides INAOE-BUAP
+        </div>
+        <img src="img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
+        <img src="img/LOGO.png" alt="INAOE" class="logoimg">
       </div>
-      <img src="img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
-      <img src="img/LOGO.png" alt="INAOE" class="logoimg">
-    </div>
-  </header>
+    </header>
+
  <body>
   <div class="cBrillo">
     <div class="texto">
@@ -27,21 +28,60 @@
     </div>
   </div>
   <div class="slider-frame">
-    <left>
-    <ul>
-        <li><a class="cuadro" href="https://www.nationalgeographic.com.es/ciencia/nasa-presenta-cometa-nishimura-nuevo-descubrimiento-que-podriamos-ver-tierra_20619#google_vignette" target="_blank"><img src="img/N3.jpg" alt=""></a></li>
-        <li><a class="cuadro" href="https://www.nationalgeographic.es/espacio/2023/09/muestra-asteroide-devuelta-tierra-capsula-tiempo-antiguo-sistema-solar" target="_blank"><img src="img/os1 (1).jpg" alt=""></a></li>
-        <li><a class="cuadro" href="https://cneos.jpl.nasa.gov/ca/" target="_blank"><img src="img/acercamientos.png" alt=""></a></li>
-        <li>	<a class="cuadro" href="https://sites.google.com/viep.com.mx/eclipses" target="_blank"><img src="img/curso-eclipses1.jpg" alt=""></a></li>
-    </ul>
-    </left>
-    </div>
+    <!-- div class="carrusel" -->
+      <left>
+        <ul>
+          <li><a class="cuadro" href="https://www.nationalgeographic.com.es/ciencia/nasa-presenta-cometa-nishimura-nuevo-descubrimiento-que-podriamos-ver-tierra_20619#google_vignette" target="_blank"><img src="img/N3.jpg" alt=""></a></li>
+          <li><a class="cuadro" href="https://www.nationalgeographic.es/espacio/2023/09/muestra-asteroide-devuelta-tierra-capsula-tiempo-antiguo-sistema-solar" target="_blank"><img src="img/os1 (1).jpg" alt=""></a></li>
+          <li><a class="cuadro" href="https://cneos.jpl.nasa.gov/ca/" target="_blank"><img src="img/acercamientos.png" alt=""></a></li>
+          <li>	<a class="cuadro" href="https://sites.google.com/viep.com.mx/eclipses" target="_blank"><img src="img/curso-eclipses1.jpg" alt=""></a></li>
+        </ul>
+      </left>
+    <!-- /div -->
+    <!-- button id="anterior">anterior</button>
+    <button id="siguiente">siguiente</button>
+    <!-- script src="script.js"></script -->
+  </div>
   </font>
- </div>
- </div>
+  <!-- div class="slideshow-container">
+    <div class="mySlides fade">
+      <div class="number text">1 / 4</div>
+      <img src="img/N3.jpg" style="width: 100;">
+      <div class="text">Imagen 1</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="number text">2 / 4</div>
+      <img src="img/os1 (1).jpg" style="width: 100;">
+      <div class="text">Imagen 2</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="number text">3 / 4</div>
+      <img src="img/acercamientos.png" style="width: 100;">
+      <div class="text">Imagen 3</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="number text">4 / 4</div>
+      <img src="img/curso-eclipses1.jpg" style="width: 100;">
+      <div class="text">Imagen 4</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  <!-- /div -->
+
   <div class="cBrillo">
     <div class="texto">
-      <font color="white">
+    <font color="white">
   <h2 class="title"><a class="boton_personalizado" href="https://asteroidesinaoe.github.io/asteroides/">Asteroides</a></h2>
   <p class="description" data-aos="fade-down">
     <picture>
@@ -59,7 +99,7 @@
   <h2 class="title"><a class="boton_personalizado" href="https://asteroidesinaoe.github.io/fotometria/">Fotometría</a></h2>
   <p class="description" data-aos="fade-down">
     <picture>
-      <source media="(max-width:420px)" srcset="img/fotometria320.png">
+      <source media="(max-width:420px)" srcset="img/fotometria320.png"><a class="boton_personalizado" href="img/fotometria320.png"></a>
       <img data-aos="fade-down" src="img/fotometria.png" width="auto" style="float: right; margin-left: 20px;">
     </picture>
     La fotometría es una de las técnicas más usadas en el estudio de los asteroides, ya que nos permite determinar 
