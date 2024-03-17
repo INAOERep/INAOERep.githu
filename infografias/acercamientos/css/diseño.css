@@ -20,7 +20,7 @@ header {
 
 /* Loader */
 .hidden{
-	overflow: hidden;
+	/*overflow: hidden;*/
 } 
 
 .centrado{
