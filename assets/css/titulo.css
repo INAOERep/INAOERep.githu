@@ -1,0 +1,59 @@
+/*Partes principales */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  text-decoration: none;
+}
+body{
+  background-color: #000000;
+}
+header{
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+}
+
+/* Título de la página */
+.titulo {
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: #066DCC;
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 50px
+}
+/*HEADER SUPERIOR*/
+.parte_superior{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+/* Logo INAOE */
+.logoimg {
+  display: flex;
+  height: 110px;
+  align-items: center;
+}
+
+  /*Ajustes tamaño de pantalla*/   
+@media screen and (max-width: 800px){
+  .parte_superior{
+    max-width: 95%;
+    padding-top: 15px;
+}
+.titulo{
+    align-items: center;
+    font-size:24px
+}
+.logoimg{
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+}

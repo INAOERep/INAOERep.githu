@@ -1,0 +1,357 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js"  ></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Actividad: Órbitas</title>
+</head>
+
+<body onload="cambiar()">
+  <header>
+    <div class="parte_superior">
+      <div class="titulo">Asteroides Cercanos a la Tierra (NEAs)
+      </div>
+      <img src="../../img/LOGO INAOE 2012 blanco PNG.png" alt="INAOE" class="logoimg">
+      <img src="../../img/LOGO.png" alt="INAOE" class="logoimg">
+    </div>
+  </header>
+ 
+<div class="container__menu">
+    <div class="menu">
+        <input type="checkbox" id="check__menu">
+        <label for="check__menu" id="label__check">
+            <i class="fas fa-bars icon__menu"></i>
+        </label>
+        <nav>
+          <ul>
+              <li><a href="https://asteroidesinaoe.github.io" id="selected"></a></li>
+              <li><a href="https://asteroidesinaoe.github.io/asteroides/">Asteroides</a>
+                <ul>
+                  <li><a href="file:///C:/Users/J_C_N/Documents/Cosas/Computaci%C3%B3n/Github/asteroidesinaoe.github.io/asteroides/index.html#indice1">¿Qué es un asteroide?</a></li>
+                  <li><a href="file:///C:/Users/J_C_N/Documents/Cosas/Computaci%C3%B3n/Github/asteroidesinaoe.github.io/asteroides/index.html#indice2">¿Cómo se nombran a los asteroides?</a></li>
+                  <li><a href="file:///C:/Users/J_C_N/Documents/Cosas/Computaci%C3%B3n/Github/asteroidesinaoe.github.io/asteroides/index.html#indice3">¿Qué es una familia de asteroides?</a></li>
+                  <li><a href="file:///C:/Users/J_C_N/Documents/Cosas/Computaci%C3%B3n/Github/asteroidesinaoe.github.io/asteroides/index.html#indice4">¿Cuál es la taxonomía de los asteroides?</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/fotometria/">Fotometría</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/fotometria/mpo-canopus/">MPO Canopus</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/fotometria/fourier/">Análisis de Fourier</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/espectroscopia/">Espectroscopía</a></li>
+              <li><a href="https://asteroidesinaoe.github.io/infografias/">Infografías</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/infografias/meteoritos-mexico/">Impactos en México</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/infografias/meteoritos-mundo/">Impactos en el mundo</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/infografias/acercamientos/">Acercamientos</a></li>
+                <li><a href="https://asteroidesinaoe.github.io/infografias/biografias/">Biografías</a></li>
+              </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/impacto/">Riesgo de impacto</a>
+              <ul>
+                <li><a href="https://asteroidesinaoe.github.io/riesgo_de_impacto/">Probabilidad de un impacto</a></li>
+                <li><a href="https://asteroidesinaoe.github.io/IAWN/">Red Internacional de Alerta de Asteroides</a></li>
+              </ul>
+              <li><a href="https://asteroidesinaoe.github.io/cultura_popular/">Cultura Popular</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/cultura_popular/#indice1">Introducción</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/cultura_popular/#indice2">Libros</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/cultura_popular/#indice3">Películas</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/cultura_popular/#indice4">Música</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/cultura_popular/#indice5">Videojuegos</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/historieta/">Historieta</a></li>
+              <li style="transform: scale(1.1); background: #0074C7; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0);"><a href="https://asteroidesinaoe.github.io/actividades/">Actividades</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/curva-de-luz/">Curvas de luz</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/orbitas/">Órbitas</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/taxonomia/">Taxonomía</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/actividades/nombres/">Nombres</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/glosario/">Glosario</a></li>
+              <li><a href="https://asteroidesinaoe.github.io/aprender-mas/">Aprender más</a>
+                <ul>
+                  <li><a href="https://asteroidesinaoe.github.io/aprender-mas/rayos-cosmicos/">Rayos cósmicos</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/aprender-mas/ccd/">CCD</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/Repositorio/">Repositorio</a></li>
+                  <li><a href="https://asteroidesinaoe.github.io/Dia_de_los_asteroides/">Día del asteroide</a></li>
+                </ul>
+              </li>
+              <li><a href="https://asteroidesinaoe.github.io/contacto/">Contacto</a></li>
+          </ul>
+      </nav>
+  </div>
+</div>  
+    <div class="container2">
+      <div class="indice2">
+        <h1 class="indice_titulo"><b>Contenido</b></h1>
+        <ul class="indice_lista">
+          <li><a class="contenido" href="#indice1" target="_top">¿Cómo orbita un asteroide?</a></li>
+          <li><a class="contenido" href="#indice2" target="_top">¿Dónde se encuentra este asteroide?</a></li>
+        </ul>
+      </div>
+    <div class="cBrillo">
+      <div class="texto">
+        <font color="white">
+          <div class="capa"><a name="indice1"></a> </div>
+          <h2>¿Cómo orbita un asteroide?</h2>
+          <p>
+            Los asteroides, al igual que otros objetos del Sistema Solar, orbitan alrededor del Sol, algunos más cerca
+            que
+            otros. La forma que tiene la órbita de un asteroide es la de un elipse. Esta elipse se caracteriza por dos
+            cantidades principales, llamadas <b>eje mayor</b> y <b>eje menor</b>. El eje mayor es la distancia <b>más
+              grande</b> que hay entre dos puntos opuestos de la elipse. Por otra parte, el eje menor es la <b>menor
+              distancia</b> que hay entre dos puntos opuestos de la elipse. Normalmente, se trabaja con la mitad de
+            estas
+            cantidades, es decir, es más usado el término <b>semieje mayor</b> para referirse a la mitad del eje mayor,
+            y
+            <b>semieje menor</b> para referirse a la mitad del eje menor. Estas cantidades se denotan por las letras
+            <i>a</i> y <i>b</i> respectivamente. 
+            <center>
+              <img src="img/elipse.png" class="imagen">
+            </center>
+            Ahora que ya está relacionado con los conceptos del semieje mayor a y el semieje menor b, podemos usar esta
+            información para determinar las orbitas de los asteroides. Una unidad comúnmente usada para dar el tamaño de
+            un semieje es la <b>Unidad Astronómica</b> (AU por sus siglas en inglés). Una unidad astronómica es la
+            distancia media entre la Tierra y el Sol, y es igual a
+            1AU=149 597 870 700 m.
+            Además del semieje, hay otras dos cantidades importantes que tomar en cuenta. Recordando, un elipse tiene
+            dos
+            focos. En el caso de las orbitas, uno de los focos es el Sol. Cuando el asteroide está lo más cerca al Sol
+            en
+            su órbita, la distancia que hay entre ellos se llama <b>perihelio</b> y se denota por la letra <i>q</i>.
+            Cuando está lo más lejos del Sol en su órbita, esta distancia se llama <b>afelio</b> y se denota por la
+            letra
+            <i>Q</i>.
+            Dependiendo cuantas unidades astronómicas mida el semieje mayor de la órbita de un asteroide, puede
+            clasificarse dentro de un grupo orbital. Estos grupos se muestran en la siguiente tabla:
+            <center>
+              <table border="1">
+                <tbody>
+                  <tr>
+                    <th>
+                      <b>Grupo</b>
+                    </th>
+                    <th>
+                      <b>Semieje mayor <i>a</i></b>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>
+                      Objetos trans-neptunianos (TNOs)
+                    </td>
+                    <td>
+                      a > 29 AU
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Centauros
+                    </td>
+                    <td>
+                      5.5 AU < a <29 AU
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Troyanos
+                    </td>
+                    <td>
+                      3.3 AU < a < 5.5 AU
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Asteroides del Cintruón Principal (MBAs)
+                    </td>
+                    <td>
+                      2.1 AU < a < 3.3 AU
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Asteroides Cercanos a la Tierra (NEAs)
+                    </td>
+                    <td>
+                      a < 1 AU
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </center>
+          </p>
+          <p>
+            Los NEAs también se caracterizan por tener una distancia perihélica q < 1.3 AU. Por su importancia, los
+              NEAs se clasifican a su vez en familias en base a su perihelio q o afelio Q. En la siguiente tabla se
+              muestran las distintas familias y sus características orbitales:
+              <center>
+                <table border="1">
+                  <tbody>
+                    <tr>
+                      <th>
+                        <b>Familia</b>
+                      </th>
+                      <th>
+                        <b>Características</b>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        Atira
+                      </td>
+                      <td>
+                        Q < 0.983 AU
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Atenas
+                      </td>
+                      <td>
+                        Q > 0.983 AU
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Apolo
+                      </td>
+                      <td>
+                        q < 1.017 AU
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Amor
+                      </td>
+                      <td>
+                        1.017 AU < q < 1.3 AU
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </center>
+          </p>
+          <p>
+            Hay otra clase de asteroides muy importantes dentro del grupo de los NEAs, y es llamado <b>Asteroides
+              Potencialmente Peligrosos (PHAs)</b>. Estos asteroides se caracterizan porque la <i>Distancia Mínima de
+              Intersección de la Órbita (MOID)</i> con la Tierra es de 0.05 AU o menor, y porque tienen una <b>magnitud
+              absoluta</b> (brillo) de 22 o menor. Estos son los asteroides que verdaderamente tienen una posibilidad
+            alta
+            de impactar con la Tierra. Por ello los científicos los monitorean con especial atención.
+            Ahora que ya conoces sobre las órbitas de los asteroides, ¿te gustaría identificar a qué grupo y/o familia
+            pertenecen? Si es así, te invitamos a revisar la siguiente actividad.
+          </p>
+          <div class="capa"><a name="indice2"></a> </div>
+          <h2>¿Dónde se encuentra este asteroide?</h2>
+          <p>Ahora que ya conoce más acerca de como se agrupan los asteroides en base a sus órbitas, a continuación se
+            presentan algunas imágenes de las órbitas de algunos asteroides interesantes, elija la respuesta correcta
+            para
+            poder ver datos interesantes.
+          </p>
+          <center>
+            <div class="preguntas">
+              <p></p>
+              <button type="button" onclick="cambiar()">Intentar con otro asteroide</button>
+              <h3 style="color:black; padding:20px">¿A qué grupo pertenece el siguiente asteroide?</h3>
+              <div id="respuestas"></div>
+              <input type="button" value="Comprobar" onclick="comprobar()"><p></p>
+                <img id="ia" src="" width="70%">
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img">
+              </div>
+            </div>
+          </center>
+
+          <p>
+            
+            Ahora que ya ha practicado y conoce algunos NEAs, intente clasificarlos por la familia en la cual
+            pertenece, Atira, Atenas, Apolo o Amor. Puede basarse en el diseño de la siguiente tabla:
+            <center>
+              <table border="1" border:"white">
+                <tbody>
+                  <tr>
+                    <th>
+                      <b>Atira </b>
+                    </th>
+                    <th>
+                      <b>Atena </b>
+                    </th>
+                    <th>
+                      <b>Apolo </b>
+                    </th>
+                    <th>
+                      <b>Amor </b>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                    <th>
+                      <b></b>
+                    </th>
+                  </tr>
+                </tbody>
+              </table>
+            </center>
+            
+            Si desea saber de donde se obtuvieron las imágenes, puede buscar algunos de los asteroides vistos en esta actividad en la base de datos de <a 
+            href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/" target="_blank">base de datos de cuerpos menores del JPL de la NASA</a>, donde podrá 
+            encontrar incluso simuladores de las órbitas y explorar más a fondo los movimientos de estos objetos.
+          </p>
+        </font>
+      </div>
+    </div>
+  </div>
+</div>
+<footer> 
+  <div class="fter">
+    2022 - Página diseñada y desarrollada por el grupo de trabajo BUAP-INAOE del programa:
+    Asteroides Cercanos a la Tierra (NEAs)
+  </div>
+</footer>
+<script src="js/preguntas.js"></script>
+</body>
+</html>
